@@ -1,0 +1,15 @@
+title: SMCClab
+tagline: Sound, Music, and Creative Computing at ANU
+email: charles.martin@anu.edu.au
+description: >- # this means to ignore newlines until "baseurl:"
+  The SMCClab is focussed on research into sound music and creative computing.
+  We are based at the Australian National University School of computing.
+  The lab PI is Dr Charles Martin.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+theme: monophase
