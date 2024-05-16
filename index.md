@@ -60,3 +60,15 @@ Intelligent instruments predict human musical interactions to help them create m
 ![]({% link assets/laptop-ensemble-promo.jpg %})
 
 [Charles](https://charlesmartin.au) and other SMCClab members are involved in teaching several courses at the ANU, including [Sound and Music Computing (COMP4350/8350)](https://comp.anu.edu.au/courses/laptop-ensemble), [Art and Interaction Computing (COMP1720/6720)](https://comp.anu.edu.au/courses/comp1720) and [ANU Creative Computing Extension](https://comp.anu.edu.au/courses/extn1019/).
+
+# Posts
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+
