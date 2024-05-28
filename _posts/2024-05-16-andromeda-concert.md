@@ -18,3 +18,5 @@ For this performance, Andromeda adopt artificial intelligence and augmented real
 We ask what new sounds and new music might be created with these new technologies, and what AI and virtual musical performances will look like?
  
 Poster Image Credit: Sandy Ma
+
+[ANU School of Music Event Link](https://music.cass.anu.edu.au/events/andromeda-coming-and-artificially-intelligent-friends)
