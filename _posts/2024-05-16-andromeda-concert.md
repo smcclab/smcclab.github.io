@@ -24,11 +24,11 @@ Poster Image Credit: Sandy Ma
 ## Program 
 
 1. **From the Earth** (Charles Martin and Alec Hunter) Improvisation for AI-assisted synths and soundscapes on AUM (iPad) and Ableton Live (laptop).
-2. Unspoken (Yichen Wang and Sandy Ma) Augmented-reality-mediated collaboration for synthesiser and computer music drawing interface.
-3. AR Cubes and AI-powered MicroFreak (Yichen Wang and Charles Martin) Improvised with Augmented reality musical instrument and AI-assisted MicroFreak Synthesiser.
-4. Touching Wires (Sandy Ma) Improvisation for [Bela](https://bela.io) sensor quilt musical instrument and live video processing.
-5. Off the Shelf (Yichen Wang) Improvisation for AI-powered Volca FM synthesiser and OP-1 synthesiser.
-6. Into the Sun (Charles Martin and Alec Hunter) Improvisation for AI-assisted synths and soundscapes on AUM (iPad) and Ableton Live (laptop).
+2. **Unspoken** (Yichen Wang and Sandy Ma) Augmented-reality-mediated collaboration for synthesiser and computer music drawing interface.
+3. **Cubes and Freak** (Yichen Wang and Charles Martin) Improvised with Augmented reality musical instrument and AI-assisted MicroFreak Synthesiser.
+4. **Touching Wires** (Sandy Ma) Improvisation for [Bela](https://bela.io) sensor quilt musical instrument and live video processing.
+5. **Off the Shelf** (Yichen Wang) Improvisation for AI-powered Volca FM synthesiser and OP-1 synthesiser.
+6. **Into the Sun** (Charles Martin and Alec Hunter) Improvisation for AI-assisted synths and soundscapes on AUM (iPad) and Ableton Live (laptop).
 
 ## Video
 
