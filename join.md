@@ -11,3 +11,6 @@ Bachelor with Honours with excellent results that included a significant researc
 
 Applicants for Master or honours projects at ANU should look at available projects on the [School of Computing website](https://comp.anu.edu.au/study/projects/) (select "Sound, Music, and Creative Computing Lab" under "Research Group").
 
+If you just want news about our lab, feel free to sign up for our mailing list:
+
+{% include mailing_list_form.html %}
