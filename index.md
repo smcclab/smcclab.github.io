@@ -15,7 +15,7 @@ Members of the SMCClab are:
 - [Xinlei Niu](https://www.linkedin.com/in/xinlei-niu-544ab6216/) (PhD researcher)
 - [Yichen Wang](https://yichenwangs.github.io) (PhD researcher)
 
-SMCClab members are involved in teaching several courses at the ANU, including [Sound and Music Computing (COMP4350/8350)](https://comp.anu.edu.au/courses/laptop-ensemble), [Art and Interaction Computing (COMP1720/6720)](https://comp.anu.edu.au/courses/comp1720) and [ANU Creative Computing Extension](https://comp.anu.edu.au/courses/extn1019/).
+SMCClab members are involved in teaching several courses at the ANU, including [Sound and Music Computing (COMP4350/8350)](https://comp.anu.edu.au/courses/comp4350), [Art and Interaction Computing (COMP1720/6720)](https://comp.anu.edu.au/courses/comp1720), [Human-Computer Interation (COMP3900/6390)](https://programsandcourses.anu.edu.au/course/comp3900) and [ANU Creative Computing Extension](https://comp.anu.edu.au/courses/extn1019/).
 
 # Research Areas
 
