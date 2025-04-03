@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Yichen Wang Oral PhD Presentation: Beyond Mapping"
+title:  "Yichen Wang PhD Presentation: Beyond Mapping"
 ---
  
 - Date: Tuesday 8 April 2025
@@ -9,9 +9,9 @@ title:  "Yichen Wang Oral PhD Presentation: Beyond Mapping"
 
 ![]({% link assets/artificial-friends-min.jpg %})
 
-PhD researcher Yichen Wang will present her Oral Presentation on Tuesday 8
-April 2025 at 11:00am in N101 Seminar Room, Ground Floor Skaidrite Darius
-Building 108. All welcome! 
+PhD researcher [Yichen Wang](https://yichenwangs.github.io) will deliver her
+Oral Presentation on Tuesday 8 April 2025 at 11:00am in N101 Seminar Room,
+Ground Floor Skaidrite Darius Building 108. All welcome! 
 
 **Title:** Beyond Mapping: Exploring Spatial Musical Interface Design with Augmented Reality
 
