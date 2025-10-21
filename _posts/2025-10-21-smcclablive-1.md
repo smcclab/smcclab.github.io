@@ -5,7 +5,7 @@ title:  "SMCClablive #1 featuring Charlie Roberts"
 
 - time: 7:30pm, Friday 7 November 2025
 - location: [Big Band Room](https://studentvip.com.au/anu/main/maps/140822), Peter Karmel Building, ANU
-- tickets: Free ([registration via Humanitix](https://events.humanitix.com/smcclablive-1)
+- tickets: Free ([registration via Humanitix](https://events.humanitix.com/smcclablive-1))
 
 ![A live-code buffer from computer music concerts at the ANU used as the poster for this concert]({% link assets/2025-11-07-smcclablive-banner.jpg %})
 
