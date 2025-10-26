@@ -1,0 +1,15 @@
+a {
+  color: #007bff;
+  text-decoration: none;
+  display: inline-block; 
+  transition: all 0.3s ease; 
+}
+
+/* hover/focus link with gradient */
+a:hover,
+a:focus {
+  background: linear-gradient(90deg, rgba(255,188,48,0.8) 0%, rgba(255,80,80,0.8) 100%);;
+  -webkit-background-clip: text; /* Safari/Chrome */
+  -webkit-text-fill-color: transparent; /* needed for Chrome/Safari */
+  text-decoration: underline;
+}
