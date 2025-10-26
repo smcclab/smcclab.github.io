@@ -8,7 +8,7 @@ a {
 /* hover/focus link with gradient */
 a:hover,
 a:focus {
-  background: linear-gradient(90deg, rgba(255,188,48,0.8) 0%, rgba(255,80,80,0.8) 100%);;
+  background: linear-gradient(180deg, rgba(255,188,48,0.8) 0%, rgba(255,80,80,0.8) 80%);;
   -webkit-background-clip: text; /* Safari/Chrome */
   -webkit-text-fill-color: transparent; /* needed for Chrome/Safari */
   text-decoration: underline;
