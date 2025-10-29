@@ -14,4 +14,5 @@ Here is the visit schedule, in case you want to join any of these events to lear
 | :---   |    :----:      |    :----: | :----: | :----:   |          ---: |
 | || Meeting Keen Students | | Rehearsal Time | | 
 | 12 - 1pm | SOCO Foundation Cluster Talk || |   |  |
+| 3pm | Coffee and SNACKlab Time || |   |  |
 | 7pm - late|    |     | |    | [smcclablive #1]({% link _posts/2025-10-27-smcclablive-1.md %})   |
