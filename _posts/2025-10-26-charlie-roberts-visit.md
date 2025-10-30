@@ -15,7 +15,7 @@ Here is the visit schedule, in case you want to join any of these events to lear
 | **9:00 AM**        | Welcome & ☕️                 | ☕️                   | —             | ☕️                | ☕️                                                              |
 | **10:00 AM**       | SMCClab Tour                 | On SMCClab Research  | —             | —                 | —                                                               |
 | **11:00 AM**       | Lunch at Kambri              | —                    | —             | Lunch at NFSA!                | —                                                               |
-| **12:00 PM**       | [SOCO Foundation Cluster Talk](https://comp.anu.edu.au/foundations/seminars/schedule/2025-11-03/) | Lunch                | —             | —                 | —                                                               |
+| **12:00 PM**       | [SOCO Foundation Cluster Talk](https://comp.anu.edu.au/foundations/seminars/schedule/2025-11-03/) | Lunch                | BBQ time             | —                 | —                                                               |
 | **1:00 PM**        | Foundation Cluster Chat      | Campus Tour          | —             | —                 | —                                                               |
 | **2:00 PM**        | —                            | —                    | —             | —                 | —                                                               |
 | **3:00 PM**        | Coffee & SNACKlab Time       | —                    | —             | —                 | —                                                               |

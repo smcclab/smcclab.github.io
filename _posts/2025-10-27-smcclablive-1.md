@@ -32,3 +32,12 @@ semester, Suhani Narang and Yijia Wang.
 
 Join us for this evening of experimental computer music making!
 
+
+## Performance Setlist (around 20 mins per set)
+1. Yijia 
+2. Ben Swift
+3. Sandy & Suhani
+4. Yichen & Charles
+5. Charlie Roberts
+
+
