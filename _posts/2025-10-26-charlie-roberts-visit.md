@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Live Coder and Researcher Charlie Roberts' Visit
+title:  Live Coder and Researcher Charlie Roberts's Visit
 ---
 
 We have our colleague [Charlie Roberts](https://charlie-roberts.com/) visiting us from the states!
