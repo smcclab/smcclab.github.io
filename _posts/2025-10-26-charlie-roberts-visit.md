@@ -19,5 +19,5 @@ Here is the visit schedule, in case you want to join any of these events to lear
 | **1:00 PM**        | Foundation Cluster Chat      | Campus Tour          | —             | —                 | —                                                               |
 | **2:00 PM**        | —                            | —                    | —             | —                 | —                                                               |
 | **3:00 PM**        | Coffee & SNACKlab Time       | —                    | —             | —                 | —                                                               |
-| **4:00 PM**        | —                            | Beer??               | —             | —                 | —                                                               |
+| **4:00 PM**        | —                            | Beer??               | —             | —                 | Dinner                                                              |
 | **7:00 PM – Late** | —                            | —                    | —             | —                 | [smcclablive #1]({% link _posts/2025-10-27-smcclablive-1.md %}) |
