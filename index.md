@@ -25,22 +25,26 @@ Our lab aims to develop **new musical instruments** that sense and understand mu
 
 Members of the SMCClab are:
 
-- [Dr Charles Martin](https://charlesmartin.au) (**lead researcher**).
-- [Minsik Choi](https://yorkcla.github.io) (PhD researcher)
-- [Xinlei Niu](https://www.linkedin.com/in/xinlei-niu-544ab6216/) (PhD researcher)
-- [Yichen Wang](https://yichenwangs.github.io) (PhD researcher)
-- [Sandy Ma](https://snud.me) (PhD researcher)
-- [Albert-Ngabo Niyonsenga](https://www.linkedin.com/in/albert-ngabo-niyonsenga/) (PhD researcher)
+- [Dr Charles Martin](https://charlesmartin.au) (**lead researcher**)
+- [Dr Pia van Gelder](https://researchportalplus.anu.edu.au/en/persons/pia-van-gelder/) 
+- [Dr Alec Hunter](https://researchportalplus.anu.edu.au/en/persons/alexander-hunter/) [homepage](https://alexanderhunter.com.au)
+- [Minsik Choi](https://yorkcla.github.io) (PhD researcher, ANU School of Computing)
+- [Xinlei Niu](https://www.linkedin.com/in/xinlei-niu-544ab6216/) (PhD researcher, ANU School of Computing)
+- [Yichen Wang](https://yichenwangs.github.io) (PhD researcher, ANU School of Computing)
+- [Sandy Ma](https://snud.me) (PhD researcher, ANU School of Computing)
+- [Albert-Ngabo Niyonsenga](https://www.linkedin.com/in/albert-ngabo-niyonsenga/) (PhD researcher, ANU School of Computing)
 
 SMCClab members are involved in teaching several courses at the ANU, including [Sound and Music Computing (COMP4350/8350)](https://comp.anu.edu.au/courses/comp4350), [Art and Interaction Computing (COMP1720/6720)](https://comp.anu.edu.au/courses/comp1720), [Human-Computer Interation (COMP3900/6390)](https://programsandcourses.anu.edu.au/course/comp3900) and [ANU Creative Computing Extension](https://comp.anu.edu.au/courses/extn1019/).
 
 ## Research Areas
 
+SMCClab explores research in the broad area of sound, music and creative computing. We apply research methods from human computer interaction, signal processing, and creative arts. In all of our work, creative interaction is used as a critical research method and as a medium for producing unique outputs.
+
 ### Collaborative Interfaces
 
 ![]({% link assets/collaboration.jpg %})
 
-This research aims to create new ways for groups to make music together. We created **touchscreen musical instruments** that communicate interactions over a network.  These instruments engage music performers in new kinds of **ensemble interaction**. 
+This research aims to create new ways for groups to make music together. We created **touchscreen musical instruments** that communicate interactions over a network.  These instruments engage music performers in new kinds of **ensemble interaction**.
 
 ### Spatial Interaction
 
