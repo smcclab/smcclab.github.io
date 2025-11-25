@@ -21,3 +21,9 @@ Here is the visit schedule, in case you want to join any of these events to lear
 | **3:00 PM**        | Coffee & SNACKlab Time       | —                    | —             | —                 | —                                                               |
 | **4:00 PM**        | —                            | Drink at Symposium | —             | —                 | Dinner                                                              |
 | **7:00 PM – Late** | —                            | —                    | —             | —                 | [smcclablive #1]({% link _posts/2025-10-27-smcclablive-1.md %}) |
+
+## Update Charlie Robert's Presentation!
+
+![Charlie presenting on creating live coding languages for creativity]({% link assets/2025-charlie-roberts-talk.jpg %})
+
+Charlie presenting on creating live coding languages for creativity in the Skaidrite Darius Building Systems Area.
