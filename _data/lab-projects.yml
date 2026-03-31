@@ -1,0 +1,35 @@
+- title: Intelligent Musical Prediction System
+  url: https://charlesmartin.au/imps/
+  youtube: Kdmhrp2dfHw
+  summary: |
+    The Intelligent Musical Prediction System (IMPS) is a system for connecting musicians and interface developers with deep neural networks.
+    IMPS connects with any musical interface or software using open sound control (OSC) and helps users to record a dataset,
+    train a neural network and interact with it in real-time performance.
+
+- title: Physical Musical RNN
+  youtube: 2RDVyOTRAj4
+  summary: |
+    This project was to develop a physically encapsulated musical neural network.
+    The box contains a Raspberry running a melody-generating recurrent neural network that continually composes music.
+    You can adjust the sound, tempo, the ML-model used, and the "randomness" of the chosen samples to guide the music making process.
+
+- title: PhaseRings for ML-connected touchscreen ensemble
+  url: https://medium.com/@cpmpercussion/performing-with-a-neural-touch-screen-ensemble-b77b37e0add7
+  youtube: aDEQMLwd8ok
+  summary: |
+    PhaseRings is a touchscreen instrument that works with an ML-connected ensemble.
+    A server tracks the four performer's improvisations and adjusts their user interface during the performance to give them access to different sounds on their screens.
+
+- title: Self-playing, sensor-driven guitars
+  url: https://www.uio.no/ritmo/english/projects/self-playing-guitars/
+  youtube: pUcrYwbNQ5Y
+  summary: |
+    This installation of six self-playing, sensor-driven guitars was developed at the RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion.
+    Each guitar uses a distance sensor to track the movement of listeners and sounds from an embedded computer are played from a speaker driver attached to the guitar body.
+
+- title: Embodied Predictive Musical Instrument (EMPI)
+  url: https://doi.org/10.3389/frai.2020.00006
+  youtube: tvgqxmHr9wU
+  summary: |
+    The EMPI is a minimal electronic musical instrument for experimenting with predictive interaction techniques. It includes a single physical
+    input (a lever) and a matching physical output, built-in speaker, and a Raspberry Pi for sound synthesis and ML computations.

@@ -23,16 +23,11 @@ Our lab aims to develop **new musical instruments** that sense and understand mu
 
 ## Members
 
-Members of the SMCClab are:
+{% for person in site.data.lab-members %}
+- [{{ person.name }}]({{ person.url }}) ({{ person.title }})
+{% endfor %}
 
-- [Dr Charles Martin](https://charlesmartin.au) (**lead researcher**)
-- [Dr Pia van Gelder](https://researchportalplus.anu.edu.au/en/persons/pia-van-gelder/) 
-- [Dr Alec Hunter](https://researchportalplus.anu.edu.au/en/persons/alexander-hunter/) [homepage](https://alexanderhunter.com.au)
-- [Minsik Choi](https://yorkcla.github.io) (PhD researcher, ANU School of Computing)
-- [Xinlei Niu](https://www.linkedin.com/in/xinlei-niu-544ab6216/) (PhD researcher, ANU School of Computing)
-- [Yichen Wang](https://yichenwangs.github.io) (PhD researcher, ANU School of Computing)
-- [Sandy Ma](https://snud.me) (PhD researcher, ANU School of Computing)
-- [Albert-Ngabo Niyonsenga](https://www.linkedin.com/in/albert-ngabo-niyonsenga/) (PhD researcher, ANU School of Computing)
+([list of lab alumni and former students](/alumni/))
 
 SMCClab members are involved in teaching several courses at the ANU, including [Sound and Music Computing (COMP4350/8350)](https://comp.anu.edu.au/courses/comp4350), [Art and Interaction Computing (COMP1720/6720)](https://comp.anu.edu.au/courses/comp1720), [Human-Computer Interation (COMP3900/6390)](https://programsandcourses.anu.edu.au/course/comp3900) and [ANU Creative Computing Extension](https://comp.anu.edu.au/courses/extn1019/).
 

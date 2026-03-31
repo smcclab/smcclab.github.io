@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(find /Users/charles/src/smcclab/smcclab.github.io -type f \\\\\\(-name *tag* -o -name *categor* \\\\\\))",
+      "Bash(head -20 /Users/charles/src/smcclab/smcclab.github.io/_posts/*.md)",
+      "Bash(ls:*)",
+      "Bash(wc:*)"
+    ]
+  }
+}
