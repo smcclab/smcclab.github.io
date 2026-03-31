@@ -19,7 +19,7 @@ new artistic experiences on stage.
 This time we feature [Andromeda is Coming](https://charlesmartin.au/projects/hyphae/)
 — [Charles Martin](https://charlesmartin.au) and [Alec Hunter](https://alexanderhunter.com.au) —
 performing the live launch of their new album [_Hyphae_](https://charlesmartin.au/projects/hyphae/).
-_Hyphae_ explores networked musical instruments, improvisation, and the
+_Hyphae_ explores intelligent musical instruments, improvisation, and the
 entangled growth patterns that connect performers and machines. Andromeda is
 Coming is a Canberra-based duo working at the intersection of experimental
 music, creative computing, and live performance.
@@ -32,4 +32,6 @@ Join us for this evening of experimental computer music!
 ## Program
 
 <!-- add acts here -->
-1. Andromeda is Coming — _Hyphae_ album launch
+
+1. Andromeda is Coming: _Hyphae_ album launch
+2. TBA!
