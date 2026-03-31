@@ -6,17 +6,26 @@ description: "Guide to completing PhD research degree milestones in the Sound, M
 tags: [PhD, milestones, research degree, ANU, SMCClab]
 ---
 
-Here's some information for PhD/MPhil students in the Sound, Music and Creative Computing lab for what is expected for degree milestones.
+Here's some information for PhD/MPhil students in the Sound, Music and Creative
+Computing lab for what is expected for degree milestones.
 
-The ANU explains (briefly) what the research milestones are and when they are due on [this page](https://www.anu.edu.au/students/program-administration/assessments-exams/research-candidate-milestones) but there is little information about what to put in each one. The following information has been developed by looking at a variety of ANU documents and conversations with colleagues at the School of Computing and HDR students in the SMCClab.
+The ANU explains (briefly) what the research milestones are and when they are
+due on [this
+page](https://www.anu.edu.au/students/program-administration/assessments-exams/research-candidate-milestones)
+but there is little information about what to put in each one. The following
+information has been developed by looking at a variety of ANU documents and
+conversations with colleagues at the School of Computing and HDR students in
+the SMCClab.
 
-The most recent local guidelines from our [College](https://cecc.anu.edu.au) are [here](https://cecc.anu.edu.au/sites/default/files/u10816/cecs_hdr_milestone_guidelines_2018.pdf) and give more details about the typical requirements locally.
-
-My experience has been that different groups have _quite different expectations_ for these milestones and so I'm setting down the details of how we do things in the SMCClab.
+My experience has been that different groups have _quite different
+expectations_ for these milestones and so I'm setting down the details of how
+we do things in the SMCClab.
 
 ## Annual Plans and Reports
 
-Your PhD will likely include four annual plans, three of which will also be an annual report. This is the official way to record your goals for the coming year and record your achievements from the previous year.
+Your PhD will likely include four annual plans, three of which will also be an
+annual report. This is the official way to record your goals for the coming
+year and record your achievements from the previous year.
 
 ### First Annual Plan
 
@@ -36,9 +45,13 @@ Your "plan" should be a 2--4 page PDF document created in LaTeX that includes:
 1. The main idea/aim/area of your research (your research problem)
 2. An initial attempt to situate your research problem in the literature
 3. Plans for initial investigations into your research problem
-4. References to other scholarly texts that help contextualise your problem (about 15 is a good initial goal)
+4. References to other scholarly texts that help contextualise your problem (20 is a good initial goal)
 
 You should send your annual plan to me for feedback before submitting the "official" form.
+
+You first annual plan is likely to be the starting point of your first paper or
+conference submission, so it's important articulation work to get started on
+early.
 
 ### Later: Annual Report and Plan
 
@@ -50,52 +63,50 @@ Similarly to your _first_ plan, this should be a 2--4 page PDF document created 
 2. A brief report on projects, publications, presentations, or studies completed in the previous year
 3. Plans for projects and studies that will take place over the next year.
 
-You should send your annual plan to me for feedback before submitting the "official" eForm.
+You should send your annual plan to me for feedback before submitting the "official" form.
 
-## Thesis Proposal Review
+## Confirmation of Candidature
 
-The "Thesis Proposal Review" is the first **major milestone** for a PhD student and should be completed between 9-12 months into their program. This submission should reflect on research completed in the early stages of their program and propose a realistic plan for the completion of the rest of their program.
+The "Confirmation of Candidature" (CoC) is the first **major milestone** for a
+PhD student and should be completed between 9–12 months into their program. It
+consists of a written Thesis Proposal and an oral presentation.
 
-### SMCClab requirements
+### Thesis Proposal (written component)
 
-For your TPR you should prepare a document and present it to the supervision panel. Optionally, the presentation can take the form of a public seminar advertised to other students and staff.
-
-#### Document
-
-- 5--10 pages
+- **Minimum 5,000 words**
 - PDF produced in LaTeX with _excellent_ formatting and referencing (APA author-date style referencing preferred)
 - Follow a **standard structure**: introduction, related work, proposed (and completed) methodology, research results to date, discussion of findings so far and expectations for future studies
-- You don't need to repeat the content of existing manuscripts (just refer to them)
-- Your TPR document should provide a **clear and persuasive description of your research problem** and how you intend to address it
+- Your Thesis Proposal should provide a **clear and persuasive description of your research problem** and how you intend to address it
 - Your plan should be **backed by evidence** from the literature and your research so far
 - The future work plan should propose **specific research projects** that will each be likely to become an important publication
 
-You should plan to have your TPR document completed at least **one week** before you "submit" it in the eForm system.
+The document must include:
 
-#### Seminar
+1. A clear articulation of the motivation for your research and research questions that aim to address it.
+2. A description of how this proposed research will make an **original contribution** to the field
+3. A literature review which situates your research within existing work
+4. The proposed methodology and clear description of progress made so far.
+5. A **timeline and project plan** demonstrating that the remained of the research can be completed within the program length
 
-A public seminar or presentation of your TPR is _not required_ by ANU policies. That said, a public presentation is encouraged. The seminar would normally be:
+You must provide the Thesis Proposal to your CRP at least **10 working days** before the oral presentation.
 
-- 45 minutes with 15 minutes for questions
-- scheduled to take place in a public seminar room
-- advertised on the School / Cluster mailing lists
-- structured similarly to your TPR document but with more focus on justifying your research problem and your work so far
-- at least one week **after** your TPR document has been submitted officially
+### Presentation
 
-### TPR Process
+The presentation is based on your written Thesis Proposal and should be:
 
-1. Candidate agrees on TPR timeline and formatting with primary supervisor. Decide whether to hold a seminar or a closed supervision meeting.
-2. Candidate creates TPR document and sends to primary supervisor (and others) at least a week in advance of planned eForm submission.
-3. Candidate incorporates feedback from supervisors and submits eForm.
-4. Supervision panel and candidate meet; candidate briefly presents TPR contents, supervisors present feedback and initiate discussion.
-5. Supervisors upload feedback or recommendations into eForm after meeting.
+- **40–60 minutes** in length with **20 minutes for discussion**
+- Open to all members of the SMCClab, and advertised internally (and optionally the public)
+- Scheduled in a public seminar room and advertised on School/Cluster mailing lists
+- Attended by all supervisors (in-person is expected for ANU staff or affiliated supervisors)
+- The presentation should be 50% situating your research problem, and 50% on your progress so far.
+- The main question to answer: "What is this research problem and why is it worth investigating?"
 
-### Hints for your TPR
+### Hints for your CoC
 
-- Talk to other PhD students / recent grads about their TPR experience to gauge the expectations.
-- Attend the ANU TPR bootcamp for _inspiration, but not direction_: all ANU schools have different requirements.
-- Some folks view the TPR as "box ticking" and not to be taken seriously — **this is not the approach within my lab**. I expect a real effort to level up your articulation of your research plan.
-- The TPR is one of the few opportunities for supervisors to officially provide negative feedback with consequences.
+- Talk to other PhD students / recent grads about their CoC experience to gauge the expectations.
+- Read completed Thesis Proposals --- stored in the Shared Files area on the SMCClab team.
+- Some folks view the CoC as "box ticking", be warned that **this is not the approach within my lab**. I expect a real effort to level up your articulation of your research plan.
+- The CoC is one of the few opportunities for supervisors to officially provide negative feedback with consequences. Demonstrate that you are ready for your PhD by engaging seriously with the requirements.
 
 ## Thesis Completion Presentation
 
@@ -106,9 +117,16 @@ Oral presentations are:
 - normally 60 minutes in length plus time for questions
 - advertised within the School of Computing and are public
 
-You will give an exceptionally high quality presentation covering your whole thesis and be ready to answer questions on any part of your research. We want to celebrate this part of your work so you should invite friends and family and we will arrange a morning/afternoon tea reception.
+You will give an exceptionally high quality presentation covering your whole
+thesis and be ready to answer questions on any part of your research. We want
+to celebrate this part of your work so you should invite friends and family and
+we will arrange a morning/afternoon tea reception.
 
-After your presentation, you should submit the eForm including:
+This presentation should be seen as answering the research questions you set up
+in your CoC, or adjusted questions (yes, things change over a PhD). It's
+usually the first attempt to bring the different projects and aspects of PhD
+into one coherent whole so it can be some hard work to get the structure
+organised and you should expect some tough questions from your supervisors that
+(ultimately) will help you sharpen the argument in your thesis.
 
-- your slides
-- a brief document (2 pages) indicating the details of your talk (time and place), brief summary of the contents, and summary of the discussion.
+Before your presentation, you should submit the form including your slides.
