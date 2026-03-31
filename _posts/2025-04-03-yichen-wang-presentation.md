@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "Yichen Wang PhD Presentation: Beyond Mapping"
+title: "Yichen Wang PhD Presentation: Beyond Mapping"
+description: "PhD researcher Yichen Wang presents 'Beyond Mapping: Exploring Spatial Musical Interface Design with Augmented Reality' — an oral presentation on AR musical instruments and spatial interaction design at ANU."
+tags: [phd-presentation, research, augmented-reality, musical-interfaces, yichen-wang]
 ---
  
 - Date: Tuesday 8 April 2025

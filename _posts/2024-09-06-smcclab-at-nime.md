@@ -1,6 +1,8 @@
 ---
 layout: post
 title: SMCClab researchers at NIME 2024
+description: "SMCClab researchers presented performances, workshops, and work-in-progress demos at the 2024 International Conference on New Interfaces for Musical Expression in Utrecht, and announced NIME 2025 at ANU Canberra."
+tags: [nime, conference, research, live-performance, augmented-reality, embedded-ai]
 ---
 
 Researchers from the SMCClab presented a number of works at the 2024 International Conference on New Interfaces for Musical Expression in Utrecht.

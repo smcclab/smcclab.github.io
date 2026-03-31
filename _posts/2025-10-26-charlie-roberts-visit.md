@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  Live Coder and Researcher Charlie Roberts's Visit
+title: "Live Coder and Researcher Charlie Roberts's Visit"
+description: "Live coder and researcher Charlie Roberts from Worcester Polytechnic Institute (USA) visits the ANU SMCClab for a week of talks, student meetings, and a live coding performance at SMCClablive #1."
+tags: [visit, live-coding, research, charlie-roberts, computer-music]
 ---
 
 We have our colleague [Charlie Roberts](https://charlie-roberts.com/) visiting us from the states!

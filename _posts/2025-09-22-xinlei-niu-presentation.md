@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "Xinlei Niu PhD Presentation: Generative Audio"
+title: "Xinlei Niu PhD Presentation: Generative Audio"
+description: "PhD researcher Xinlei Niu presents 'Generative Audio Synthesis in Sound, Speech, and Music' — exploring deep learning approaches to Foley sound design, music editing, and speech generation at ANU."
+tags: [phd-presentation, research, generative-audio, machine-learning, xinlei-niu]
 ---
 
 - Date: Thursday 25 September, 2025

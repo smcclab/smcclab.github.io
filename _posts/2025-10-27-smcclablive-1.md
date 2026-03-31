@@ -3,6 +3,7 @@ layout: post
 title:  "SMCClablive #1 featuring Charlie Roberts"
 date: 2025-10-27
 description: "SMCClablive #1 is a concert of new instruments, new sounds, and new artistic experiences featuring live coder Charlie Roberts (USA) and researchers from the ANU SMCClab"
+tags: [concert, smcclablive, computer-music, live-performance, live-coding, charlie-roberts]
 ---
 
 - time: 7:30pm, Friday 7 November 2025

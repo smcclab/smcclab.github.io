@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "Minsik Choi PhD Presentation"
+title: "Minsik Choi PhD Presentation"
+description: "PhD researcher Minsik Choi presents 'Musical Tension and Release in Sonic Interaction Design: A Framework and Creativity Support Tool' — an oral presentation on tonal cognition and AI-assisted sound design at ANU."
+tags: [phd-presentation, research, sonic-interaction, sound-design, minsik-choi]
 ---
  
 - Date: Friday 28 November 2025

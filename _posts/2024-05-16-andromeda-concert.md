@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "Andromeda is Coming and Artificially Intelligent Friends"
+title: "Andromeda is Coming and Artificially Intelligent Friends"
+description: "A 60-minute concert of new music for AI and augmented reality musical instruments featuring Andromeda is Coming (Charles Martin and Alec Hunter), Yichen Wang, and Sandy Ma at the ANU School of Music."
+tags: [concert, live-performance, andromeda-is-coming, augmented-reality, ai-instruments, computer-music]
 ---
  
 - Date: Wednesday 29 May 2024

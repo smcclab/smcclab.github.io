@@ -3,6 +3,7 @@ layout: post
 title:  "SMCClablive #1 wrapup"
 date: 2025-11-24
 description: "A wrapup of events at our SMCClablive #1 in early November 2025 with live coder Charlie Roberts (USA) and researchers from the ANU SMCClab"
+tags: [concert, smcclablive, computer-music, live-performance, live-coding, charlie-roberts]
 ---
 
 The first of our smcclablive concerts was held at the Peter Karmel Building Big Band Room on 7 November 2025. Works were presented from researchers and students in the ANU SMCClab with guests Charlie Roberts from Worcester Polytechnic Institute (USA) and Ben Swift from the ANU School of Cybernetics.
