@@ -8,7 +8,7 @@ tags: [concert, smcclablive, computer-music, live-performance, hyphae]
 
 - time: 7:30pm, Wednesday 3 June 2026
 - location: [Big Band Room](https://studentvip.com.au/anu/main/maps/140822), Peter Karmel Building, ANU School of Music
-- tickets: Free (registration via [smcclab.au](https://smcclab.au))
+- tickets: Free (registration via [Humanitix](https://events.humanitix.com/smcclablive-2))
 
 ![SMCClablive #2 poster — Andromeda is Coming Hyphae album launch, 7:30pm Wednesday 3 June 2026, Big Band Room, ANU School of Music]({% link assets/2026/2026-06-03-smcclablive-2-poster-2000w.jpg %})
 
@@ -33,5 +33,8 @@ Join us for this evening of experimental computer music!
 
 <!-- add acts here -->
 
-1. Andromeda is Coming: _Hyphae_ album launch
-2. TBA!
+1. Bad Microphone (Albert Ngabo Niyonsenga)
+2. Touching Wires (Sandy Ma)
+3. PVG sans PCB (Pia van Gelder)
+4. Mechanical Landscapes: Three ANU alumni and one faculty member were each given time and space with an instrument from the ANU Keyboard Institute's remarkable historical collection. These composer-performers will present a selection of works from the recent project Mechanical Landscapes in which they explore themes of memory, loss, and the physical experience of sound. Each of these works occupies a unique soundworld inspired by curiosity, close listening, and a willingness to explore these exceptional instruments from the inside out.
+5. Andromeda is Coming: _Hyphae_ album launch
