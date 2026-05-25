@@ -6,7 +6,7 @@ description: "SMCClablive #2 is a concert of new instruments, new sounds, and ne
 tags: [concert, smcclablive, computer-music, live-performance, hyphae]
 ---
 
-- time: 7:30pm, Wednesday 3 June 2026
+- time: 7:30pm--10:30pm, Wednesday 3 June 2026
 - location: [Big Band Room](https://studentvip.com.au/anu/main/maps/140822), Peter Karmel Building, ANU School of Music
 - tickets: Free (registration via [Humanitix](https://events.humanitix.com/smcclablive-2))
 
@@ -24,17 +24,17 @@ entangled growth patterns that connect performers and machines. Andromeda is
 Coming is a Canberra-based duo working at the intersection of experimental
 music, creative computing, and live performance.
 
-Joining them on stage will be students and staff from the ANU SMCClab presenting
+Joining them on stage will be students, staff, and friends of the ANU SMCClab presenting
 their computational arts research in performance.
 
 Join us for this evening of experimental computer music!
 
 ## Program
 
-<!-- add acts here -->
+1. Bad Microphone: Albert Ngabo Niyonsenga + ensemble (networked prototype instruments)
+2. words, noise, noise: Andrew Cox (mixed spoken word), Kian Macleod (guitar + pedals), Sandy Ma (blanket + pedals)
+3. PVG sans PCB: Pia van Gelder
+4. Mechanical Landscapes: works from three ANU alumni, Chloë Hobbs, Ashleigh Drury, and Rosa Bassett, engaging with instruments from the ANU Keyboard Institute to explore memory, loss and the physical experience of sound.
+5. _Hyphae_ album launch: Andromeda is Coming, Alexander Hunter and Charles Martin, performing live with computer, electronic, and AI musical instruments.
 
-1. Bad Microphone (Albert Ngabo Niyonsenga)
-2. Touching Wires (Sandy Ma)
-3. PVG sans PCB (Pia van Gelder)
-4. Mechanical Landscapes: Three ANU alumni and one faculty member were each given time and space with an instrument from the ANU Keyboard Institute's remarkable historical collection. These composer-performers will present a selection of works from the recent project Mechanical Landscapes in which they explore themes of memory, loss, and the physical experience of sound. Each of these works occupies a unique soundworld inspired by curiosity, close listening, and a willingness to explore these exceptional instruments from the inside out.
-5. Andromeda is Coming: _Hyphae_ album launch
+<!-- Three ANU alumni and one faculty member were each given time and space with an instrument from the ANU Keyboard Institute's remarkable historical collection. These composer-performers will present a selection of works from the recent project Mechanical Landscapes in which they explore themes of memory, loss, and the physical experience of sound. Each of these works occupies a unique soundworld inspired by curiosity, close listening, and a willingness to explore these exceptional instruments from the inside out. -->
