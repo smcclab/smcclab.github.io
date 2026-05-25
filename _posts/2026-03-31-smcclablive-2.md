@@ -16,9 +16,7 @@ SMCClablive #2 is the second in the ANU Sound, Music, and Creative Computing
 Lab's research performance series featuring new instruments, new sounds, and
 new artistic experiences on stage.
 
-This time we feature [Andromeda is Coming](https://charlesmartin.au/projects/hyphae/)
-— [Charles Martin](https://charlesmartin.au) and [Alec Hunter](https://alexanderhunter.com.au) —
-performing the live launch of their new album [_Hyphae_](https://charlesmartin.au/projects/hyphae/).
+This time we feature [Andromeda is Coming](https://charlesmartin.au/projects/hyphae/), [Charles Martin](https://charlesmartin.au) and [Alec Hunter](https://alexanderhunter.com.au), performing the live launch of their new album [_Hyphae_](https://charlesmartin.au/projects/hyphae/).
 _Hyphae_ explores intelligent musical instruments, improvisation, and the
 entangled growth patterns that connect performers and machines. Andromeda is
 Coming is a Canberra-based duo working at the intersection of experimental
@@ -31,7 +29,7 @@ Join us for this evening of experimental computer music!
 
 ## Program
 
-1. Bad Microphone: Albert Ngabo Niyonsenga + ensemble (networked prototype instruments)
+1. Bad Microphone: Albert-Ngabo Niyonsenga + ensemble (networked prototype instruments)
 2. words, noise, noise: Andrew Cox (mixed spoken word), Kian Macleod (guitar + pedals), Sandy Ma (blanket + pedals)
 3. PVG sans PCB: Pia van Gelder
 4. Mechanical Landscapes: works from three ANU alumni, Chloë Hobbs, Ashleigh Drury, and Rosa Bassett, engaging with instruments from the ANU Keyboard Institute to explore memory, loss and the physical experience of sound.
