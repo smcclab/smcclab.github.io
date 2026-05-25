@@ -32,7 +32,7 @@ Join us for this evening of experimental computer music!
 1. Bad Microphone: Albert-Ngabo Niyonsenga + ensemble (networked prototype instruments)
 2. words, noise, noise: Andrew Cox (mixed spoken word), Kian Macleod (guitar + pedals), Sandy Ma (blanket + pedals)
 3. PVG sans PCB: Pia van Gelder
-4. Mechanical Landscapes: works from three ANU alumni, Chloë Hobbs, Ashleigh Drury, and Rosa Bassett, engaging with instruments from the ANU Keyboard Institute to explore memory, loss and the physical experience of sound.
+4. Mechanical Landscapes: works from three ANU alumni, Chloë Hobbs, Ashleigh Hazel, and Rosa Bassett, engaging with instruments from the ANU Keyboard Institute to explore memory, loss and the physical experience of sound.
 5. _Hyphae_ album launch: Andromeda is Coming, Alexander Hunter and Charles Martin, performing live with computer, electronic, and AI musical instruments.
 
 <!-- Three ANU alumni and one faculty member were each given time and space with an instrument from the ANU Keyboard Institute's remarkable historical collection. These composer-performers will present a selection of works from the recent project Mechanical Landscapes in which they explore themes of memory, loss, and the physical experience of sound. Each of these works occupies a unique soundworld inspired by curiosity, close listening, and a willingness to explore these exceptional instruments from the inside out. -->
