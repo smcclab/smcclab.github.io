@@ -54,11 +54,11 @@
   url: "https://snud.me"
 
 - year: 2025
-  title: "Live soundtrack for Martyn Jolly's Magic Lantern show"
-  authors: "<strong>Charles Martin</strong>"
+  title: "Magic Lantern show — Heritage in the Limelight"
+  authors: "<strong>Charles Martin</strong> (live music), with Martyn Jolly and collaborators"
   type: "Live soundtrack"
-  venue: "River of Art Festival, historic Kinema"
-  location: "Narooma, Australia"
+  venue: "River of Art Festival, Narooma Kinema"
+  location: "Narooma, NSW · 4 October 2025"
 
 - year: 2025
   title: "Dream Tent: a sonic reconstruction of a 19th-century mind therapy device"
@@ -85,11 +85,11 @@
   url: "https://doi.org/10.5281/zenodo.17553285"
 
 - year: 2024
-  title: "Live soundtrack for Magic Lantern show"
-  authors: "<strong>Charles Martin</strong>"
+  title: "Wrecked — magic lantern show"
+  authors: "<strong>Charles Martin</strong> and <strong>Alec Hunter</strong>, with Martyn Jolly"
   type: "Live soundtrack"
-  venue: "Magic Lantern performance"
-  location: "Tathra, Australia"
+  venue: "Headland Writers Festival"
+  location: "Tathra, NSW · 19 October 2024"
 
 - year: 2023
   title: "Music(re)ality: A Collaborative Improvisation between Virtual and Real World"
@@ -115,3 +115,17 @@
   venue: "OzCHI 2022 creative program"
   location: "Canberra, Australia"
   url: "https://yichenwangs.github.io/yichen/work"
+
+- year: 2022
+  title: "Magic Lantern performance — Heritage in the Limelight"
+  authors: "<strong>Charles Martin</strong> and <strong>Alec Hunter</strong>, with Martyn Jolly and Rachael Thoms"
+  type: "Live soundtrack"
+  venue: "Dynamo Hub, Gorman Arts Centre"
+  location: "Canberra, ACT · March 2022"
+
+- year: 2021
+  title: "Magic Lantern performance — Heritage in the Limelight"
+  authors: "<strong>Charles Martin</strong> and <strong>Alec Hunter</strong>, with Martyn Jolly, Elisa deCourcy, and Rachael Thoms"
+  type: "Live soundtrack"
+  venue: "PhotoAccess"
+  location: "Canberra, ACT · 18 February 2021"

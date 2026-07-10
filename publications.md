@@ -33,7 +33,7 @@ learning, and human–computer interaction — including
 </ul>
 {% endfor %}
 
-<p class="list-intro" style="margin-top:2em;font-size:0.85em;color:#666;">
+<p class="list-intro" style="margin-top:2em;font-size:0.85em;color:var(--body-color);opacity:0.7;">
 This list is generated from our
 <a href="https://github.com/cpmpercussion/preprints/blob/main/publications.bib">public BibTeX record</a>.
 A fuller record including creative works, software, and talks is on

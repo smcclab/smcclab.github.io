@@ -20,6 +20,7 @@ involving lab members. Lab members (current and former) are shown in **bold**.
   <img src="{% link assets/2024-aicaif-concert.jpg %}" alt="AI Friends concert" loading="lazy">
   <img src="{% link assets/2025-smcclablive-1-1.jpg %}" alt="SMCClab Live concert" loading="lazy">
   <img src="{% link assets/2025-dream-tent.jpg %}" alt="Dream Tent installation with Martyn Jolly, ANU Drill Hall Gallery" loading="lazy">
+  <img src="{% link assets/2023-beyond-realms.jpg %}" alt="破境 // beyond realms, Yichen Wang and Sandy Ma at ACMC 2023" loading="lazy">
   <img src="{% link assets/metatone-hands-header.jpg %}" alt="Ensemble Metatone touchscreen performance" loading="lazy">
   <img src="{% link assets/artificial-friends-min.jpg %}" alt="Artificial Friends performance" loading="lazy">
 </div>

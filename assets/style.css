@@ -38,23 +38,26 @@ a:focus {
   grid-template-columns: 5.5em 1fr;
   gap: 0.15em 1em;
   padding: 0.7em 0;
-  border-bottom: 1px solid rgba(0,0,0,0.08);
+  border-bottom: 1px solid var(--border-color);
 }
 
-.entry-venue {
+.entry-venue,
+.entry-kind {
   align-self: start;
   font-size: 0.72em;
   font-weight: 700;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: #6b6b6b;
+  color: var(--body-color);
+  opacity: 0.6;
   padding-top: 0.3em;
   word-break: break-word;
 }
 
-/* flagship venues get the warm accent */
+/* flagship venues get the warm accent (readable on light and dark) */
 .entry-venue.is-top {
   color: #d24317;
+  opacity: 1;
 }
 
 .entry-body { min-width: 0; }
@@ -67,11 +70,11 @@ a:focus {
 .entry-authors {
   display: block;
   font-size: 0.9em;
-  color: #444;
+  color: var(--body-color);
   margin-top: 0.15em;
 }
 
-.entry-authors strong { color: #111; }
+.entry-authors strong { color: var(--heading-color); }
 
 .entry-links {
   display: block;
@@ -81,18 +84,11 @@ a:focus {
 
 .entry-links a {
   margin-right: 0.9em;
-  color: #007bff;
 }
 
-.entry-kind {
-  font-size: 0.72em;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
-  color: #6b6b6b;
-  padding-top: 0.3em;
+@media (prefers-color-scheme: dark) {
+  .entry-venue.is-top { color: #ffa94d; }
 }
-.entry-kind.is-artistic { color: #b5179e; }
 
 /* performance hero gallery */
 .perf-gallery {
