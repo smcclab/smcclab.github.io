@@ -1,0 +1,179 @@
+# GENERATED FILE -- do not edit by hand.
+# Regenerate with: python3 scripts/build_publications.py
+# Source: _bibliography/publications.bib
+  - year: 2026
+    title: "A Web Interface for Real-Time Interaction with Machine Learning in Musical Performance"
+    authors: "<strong>Hongzhe Kevin Zhu</strong> and <strong>Charles Patrick Martin</strong>"
+    venue: "NIME"
+    top: true
+    url: "https://doi.org/10.5281/zenodo.20784312"
+  - year: 2026
+    title: "Beyond Video-to-SFX: Video to Audio Synthesis with Environmentally Aware Speech"
+    authors: "<strong>Xinlei Niu</strong>, Junjie Ma, Daniel Harper-Harris, Xi Zhang, <strong>Charles Patrick Martin</strong>, and Jing Zhang"
+    venue: "ICASSP"
+    top: true
+    url: "https://doi.org/10.1109/ICASSP55912.2026.11463835"
+    preprint: "https://arxiv.org/abs/2509.15492"
+  - year: 2026
+    title: "Opening the Design Space: Two Years of Performance with Intelligent Musical Instruments"
+    authors: "<strong>Charles Patrick Martin</strong>"
+    venue: "NIME"
+    top: true
+    url: "https://doi.org/10.5281/zenodo.20784072"
+    preprint: "https://arxiv.org/abs/2604.23583"
+  - year: 2026
+    title: "SteerMusic: Enhanced Musical Consistency for Zero-shot Text-Guided and Personalized Music Editing"
+    authors: "<strong>Xinlei Niu</strong>, Kin Wai Cheuk, Jing Zhang, Naoki Murata, Chieh-Hsin Lai, Michele Mancusi, Woosung Choi, Giorgio Fabbro, Wei-Hsiang Liao, <strong>Charles Patrick Martin</strong>, and Yuki Mitsufuji"
+    venue: "AAAI"
+    top: true
+    url: "https://doi.org/10.1609/aaai.v40i3.37181"
+    preprint: "https://arxiv.org/abs/2504.10826"
+  - year: 2025
+    title: "A Musical Tension and Release Framework for Sonic Interaction Designers"
+    authors: "M. Choi, Josh Andres, <strong>A. Hunter</strong>, and <strong>Charles Patrick Martin</strong>"
+    venue: "CHI"
+    top: true
+    url: "https://doi.org/10.1145/3706599.3720089"
+  - year: 2025
+    title: "AI See, You See: Human-AI Musical Collaboration in Augmented Reality"
+    authors: "<strong>Yichen Wang</strong> and <strong>Charles Patrick Martin</strong>"
+    venue: "CHI"
+    top: true
+    url: "https://doi.org/10.1145/3706599.3720052"
+  - year: 2025
+    title: "Exploring the Impact of Spatial Awareness on Large-Scale AR DMIs"
+    authors: "Q. Zhou and <strong>Charles Patrick Martin</strong>"
+    venue: "NIME"
+    top: true
+    url: "https://doi.org/10.5281/zenodo.15698972"
+  - year: 2025
+    title: "Luna: An AR Musical Instrument on the Meta Quest 2"
+    authors: "S. Dietz and <strong>Charles Patrick Martin</strong>"
+    venue: "NIME"
+    top: true
+    url: "https://doi.org/10.5281/zenodo.15698970"
+  - year: 2025
+    title: "Seeing the Sound: Supporting Musical Collaboration with Augmented Reality"
+    authors: "<strong>Yichen Wang</strong>, Mingze Xi, Matt Adcock, and <strong>Charles Patrick Martin</strong>"
+    venue: "C&C"
+    top: true
+    url: "https://doi.org/10.1145/3698061.3726905"
+  - year: 2025
+    title: "Touching Wires: Tactility and a Quilted Musical Interface for Human-AI Musical Co-Creation"
+    authors: "S. Ma and <strong>Charles Patrick Martin</strong>"
+    venue: "NIME"
+    top: true
+    url: "https://doi.org/10.5281/zenodo.15698865"
+  - year: 2024
+    title: "Breaking from realism: exploring the potential of glitch in AI-generated dance"
+    authors: "<strong>Benedikte Wallace</strong>, Kristian Nymoen, Jim Torresen, and <strong>Charles Patrick Martin</strong>"
+    venue: "Digital Creativity"
+    top: false
+    url: "https://doi.org/10.1080/14626268.2024.2327006"
+  - year: 2024
+    title: "HybridVC: Efficient Voice Style Conversion with Text and Audio Prompts"
+    authors: "<strong>Xinlei Niu</strong>, Jing Zhang, and <strong>Charles Patrick Martin</strong>"
+    venue: "Interspeech"
+    top: true
+    preprint: "https://arxiv.org/abs/2404.15637"
+  - year: 2024
+    title: "Latent Optimal Paths by Gumbel Propagation for Variational Bayesian Dynamic Programming"
+    authors: "<strong>Xinlei Niu</strong>, Christian Walder, Jing Zhang, and <strong>Charles Patrick Martin</strong>"
+    venue: "ICML"
+    top: true
+    preprint: "https://arxiv.org/abs/2306.02568"
+  - year: 2024
+    title: "Scenario-Based Design to Envision How GenAI Can Support Sound Design Practices"
+    authors: "M. Choi, Josh Andres, <strong>A. Hunter</strong>, and <strong>Charles Patrick Martin</strong>"
+    venue: "OzCHI"
+    top: false
+    url: "https://doi.org/10.1145/3726986.3727042"
+  - year: 2024
+    title: "SoundLoCD: An Efficient Conditional Discrete Contrastive Latent Diffusion Model for Text-to-Sound Generation"
+    authors: "<strong>Xinlei Niu</strong>, Jing Zhang, Christian Walder, and <strong>Charles Patrick Martin</strong>"
+    venue: "ICASSP"
+    top: true
+    url: "https://doi.org/10.1109/ICASSP48485.2024.10446349"
+    preprint: "https://arxiv.org/abs/2405.15338"
+  - year: 2024
+    title: "Tonal Cognition in Sonification: Exploring the Needs of Practitioners in Sonic Interaction Design"
+    authors: "M. Choi, Josh Andres, and <strong>Charles Patrick Martin</strong>"
+    venue: "Audio Mostly"
+    top: false
+    url: "https://doi.org/10.1145/3678299.3678321"
+  - year: 2023
+    title: "Composing Interface Connections for a Networked Touchscreen Ensemble"
+    authors: "<strong>Charles Patrick Martin</strong>, <strong>Alexander Hunter</strong>, Brent Schuetze, and <strong>Yichen Wang</strong>"
+    venue: "Proceedings of the 4th International Symposiu…"
+    top: false
+    url: "https://doi.org/10.1109/IEEECONF59510.2023.10335226"
+    preprint: "https://charlesmartin.au/preprints/2023-composing-interface-connections.pdf"
+  - year: 2023
+    title: "Embodying an Interactive AI for Dance Through Movement Ideation"
+    authors: "<strong>Benedikte Wallace</strong>, Clarice Hilton, Kristian Nymoen, Jim Torresen, <strong>Charles Patrick Martin</strong>, and Rebecca Fiebrink"
+    venue: "C&C"
+    top: true
+    url: "https://doi.org/10.1145/3591196.3593336"
+  - year: 2023
+    title: "Mobility, Space and Sound Activate Expressive Musical Experience in Augmented Reality"
+    authors: "<strong>Yichen Wang</strong>, Mingze Xi, Matt Adcock, and <strong>Charles Patrick Martin</strong>"
+    venue: "NIME"
+    top: true
+    url: "http://nime.org/proceedings/2023/nime2023_17.pdf"
+  - year: 2022
+    title: "Augmenting Sculpture with Immersive Sonification"
+    authors: "<strong>Yichen Wang</strong>, Henry Gardner, <strong>Charles Martin</strong>, and Matt Adcock"
+    venue: "2022 IEEE Conference on Virtual Reality and 3…"
+    top: false
+    url: "https://doi.org/10.1109/VRW55335.2022.00164"
+  - year: 2022
+    title: "Designing Sound Synthesis Interfaces for Head-mounted Augmented Reality"
+    authors: "<strong>Yichen Wang</strong> and <strong>Charles Martin</strong>"
+    venue: "2022 IEEE Conference on Virtual Reality and 3…"
+    top: false
+    url: "https://doi.org/10.1109/VRW55335.2022.00078"
+  - year: 2022
+    title: "GenAICHI: Generative AI and HCI"
+    authors: "Michael Muller, Lydia B Chilton, Anna Kantosalo, <strong>Charles Patrick Martin</strong>, and Greg Walsh"
+    venue: "CHI"
+    top: true
+    url: "https://doi.org/10.1145/3491101.3503719"
+  - year: 2022
+    title: "Performing with a Generative Electronic Music Controller"
+    authors: "<strong>Charles Patrick Martin</strong>"
+    venue: "Joint Proceedings of the ACM IUI Workshops 2022"
+    top: false
+    url: "https://ceur-ws.org/Vol-3124/paper10.pdf"
+    preprint: "https://hai-gen.github.io/2022/papers/paper-HAIGEN-MartinCharles.pdf"
+  - year: 2021
+    title: "An Application for Evolutionary Music Composition Using Autoencoders"
+    authors: "Robert Neil McArthur and <strong>Charles Patrick Martin</strong>"
+    venue: "AAAI"
+    top: true
+    url: "https://doi.org/10.1007/978-3-030-72914-1_29"
+  - year: 2021
+    title: "Environmental Adaptation of Robot Morphology and Control through Real-world Evolution"
+    authors: "<strong>Tønnes F. Nygaard</strong>, <strong>Charles P. Martin</strong>, David Howard, Jim Torresen, and Kyrre Glette"
+    venue: "Evolutionary Computation"
+    top: false
+    url: "https://doi.org/10.1162/evco_a_00291"
+    preprint: "https://arxiv.org/abs/2003.13254"
+  - year: 2021
+    title: "Exploring the Effect of Sampling Strategy on Movement Generation with Generative Neural Networks"
+    authors: "<strong>Benedikte Wallace</strong>, <strong>Charles Patrick Martin</strong>, Jim Tørresen, and Kristian Nymoen"
+    venue: "AAAI"
+    top: true
+    url: "https://doi.org/10.1007/978-3-030-72914-1_23"
+  - year: 2021
+    title: "Learning Embodied Sound-Motion Mappings: Evaluating AI-Generated Dance Improvisation"
+    authors: "<strong>Benedikte Wallace</strong>, <strong>Charles P. Martin</strong>, Jim Tørresen, and Kristian Nymoen"
+    venue: "C&C"
+    top: true
+    url: "https://doi.org/10.1145/3450741.3465245"
+  - year: 2021
+    title: "Real-world embodied AI through a morphologically adaptive quadruped robot"
+    authors: "<strong>Tønnes F. Nygaard</strong>, <strong>Charles P. Martin</strong>, Jim Torresen, Kyrre Glette, and David Howard"
+    venue: "Nature Machine Intelligence"
+    top: false
+    url: "https://doi.org/10.1038/s42256-021-00320-3"
+    video: "https://youtu.be/8ZSP_KzrP_w"

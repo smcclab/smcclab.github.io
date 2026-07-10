@@ -1,0 +1,117 @@
+# Curated list of SMCClab-era performances (2021--).
+# Maintained by hand: the lab's concerts and installations are not catalogued in
+# the BibTeX record, so add new entries here directly. Newest first.
+# Fields: year, title, authors (HTML; wrap lab members in <strong>), type,
+#         venue, location, url (event/write-up), video (optional).
+
+- year: 2026
+  title: "回溯 (Retrace): Co-constructing a Dual Feedback Apparatus"
+  authors: "<strong>Yichen Wang</strong> and <strong>Charles Martin</strong>"
+  type: "Concert"
+  venue: "NIME 2026 musical program"
+  location: "London, United Kingdom"
+  url: "https://doi.org/10.5281/zenodo.20782069"
+
+- year: 2026
+  title: "Performing with intelligent instruments at SoundOut"
+  authors: "<strong>Charles Martin</strong> and <strong>Yichen Wang</strong>, with world-leading improvisers"
+  type: "Festival"
+  venue: "SoundOut Festival 2026"
+  location: "Canberra, Australia"
+  url: "https://charlesmartin.au/blog/2026/02/01/soundout-2026"
+
+- year: 2026
+  title: "SMCClablive #2 — Andromeda is Coming (Hyphae album launch)"
+  authors: "<strong>Charles Martin</strong> and <strong>Alec Hunter</strong>, with SMCClab students and staff"
+  type: "Concert series"
+  venue: "SMCClablive #2, Big Band Room, ANU School of Music"
+  location: "Canberra, Australia · 3 June 2026"
+  url: "/2026/03/31/smcclablive-2.html"
+
+- year: 2026
+  title: "别敢搏，爱无毁 (Don't Dare Gamble, Love Is Indestructible)"
+  authors: "<strong>Sandy Ma</strong> — mixed textiles, electronics, and timber"
+  type: "Installation"
+  venue: "Haunted Treasures, Platform (Canberra Contemporary)"
+  location: "Manuka, Canberra · 26 June – 19 July 2026"
+  url: "https://snud.me/project/dont-dare-gamble"
+
+- year: 2025
+  title: "SMCClablive #1 — featuring Charlie Roberts"
+  authors: "SMCClab researchers with <strong>Charlie Roberts</strong> (WPI, USA) and <strong>Ben Swift</strong> (ANU)"
+  type: "Concert series"
+  venue: "SMCClablive #1, Big Band Room, ANU School of Music"
+  location: "Canberra, Australia · 7 November 2025"
+  url: "/2025/11/24/smcclablive-wrapup.html"
+  video: "https://youtu.be/S_JuZUTmwbk"
+
+- year: 2025
+  title: "Oh… What a Joy It Is to Be Held (Touching Wires)"
+  authors: "<strong>Sandy Ma</strong> — IMPSY-based commission"
+  type: "Installation"
+  venue: "Science Gallery Melbourne"
+  location: "Melbourne, Australia"
+  url: "https://snud.me"
+
+- year: 2025
+  title: "Live soundtrack for Martyn Jolly's Magic Lantern show"
+  authors: "<strong>Charles Martin</strong>"
+  type: "Live soundtrack"
+  venue: "River of Art Festival, historic Kinema"
+  location: "Narooma, Australia"
+
+- year: 2025
+  title: "Dream Tent: a sonic reconstruction of a 19th-century mind therapy device"
+  authors: "<strong>Charles Martin</strong> and Martyn Jolly"
+  type: "Installation"
+  venue: "ANU Drill Hall Gallery (Light Source exhibition, RGB+ events)"
+  location: "Canberra, Australia · 17 September 2025"
+  url: "https://charlesmartin.au/blog/2025/09/17/dream-tent"
+
+- year: 2024
+  title: "Andromeda is Coming and Artificially Intelligent Friends"
+  authors: "<strong>Alec Hunter</strong>, <strong>Charles Martin</strong>, <strong>Yichen Wang</strong>, and <strong>Sandy Ma</strong>"
+  type: "Concert"
+  venue: "Big Band Room, ANU School of Music"
+  location: "Canberra, Australia · 29 May 2024"
+  url: "/2024/05/16/andromeda-concert.html"
+
+- year: 2024
+  title: "Unspoken"
+  authors: "<strong>Yichen Wang</strong> and <strong>Sandy Ma</strong>"
+  type: "Concert"
+  venue: "NIME 2024 musical program"
+  location: "Utrecht, Netherlands"
+  url: "https://doi.org/10.5281/zenodo.17553285"
+
+- year: 2024
+  title: "Live soundtrack for Magic Lantern show"
+  authors: "<strong>Charles Martin</strong>"
+  type: "Live soundtrack"
+  venue: "Magic Lantern performance"
+  location: "Tathra, Australia"
+
+- year: 2023
+  title: "Music(re)ality: A Collaborative Improvisation between Virtual and Real World"
+  authors: "<strong>Yichen Wang</strong> and <strong>Charles Martin</strong>"
+  type: "Concert"
+  venue: "NIME 2023 musical program"
+  location: "Mexico City, Mexico"
+  url: "https://doi.org/10.5281/zenodo.17542524"
+
+- year: 2023
+  title: "破境 (pò jìng) // beyond realms"
+  authors: "<strong>Yichen Wang</strong> and <strong>Sandy Ma</strong>"
+  type: "Concert"
+  venue: "ACMC 2023 (Australasian Computer Music Conference)"
+  location: "Parramatta, Sydney, Australia"
+  url: "https://computermusic.org.au/conferences/acmc2023/"
+  video: "https://youtu.be/5QUpw_7yZqU"
+
+- year: 2022
+  title: "Cubing Sound Ensemble"
+  authors: "<strong>Yichen Wang</strong> and <strong>Charles Martin</strong>"
+  type: "Creative work"
+  venue: "OzCHI 2022 creative program"
+  location: "Canberra, Australia"
+  url: "https://yichenwangs.github.io/yichen/work"
