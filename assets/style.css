@@ -90,6 +90,213 @@ a:focus {
   .entry-venue.is-top { color: #ffa94d; }
 }
 
+/* ---- Homepage: image-driven styling ---- */
+
+/* prevent full-bleed sections from creating a horizontal scrollbar */
+body { overflow-x: hidden; }
+
+/* full-bleed hero banner built from a performance photo */
+.home-hero {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  width: 100vw;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: calc(var(--spacer) * -1);
+  margin-bottom: var(--spacer-2);
+  min-height: clamp(340px, 62vh, 580px);
+  display: flex;
+  align-items: flex-end;
+  background-color: #1a1024;
+  background-size: cover;
+  background-position: center 35%;
+  overflow: hidden;
+}
+
+/* dark + warm scrim keeps the overlaid text legible over any photo */
+.home-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(12,7,22,0.15) 0%, rgba(12,7,22,0.55) 55%, rgba(12,7,22,0.9) 100%),
+    linear-gradient(90deg, rgba(255,80,80,0.28) 0%, rgba(255,80,80,0) 55%);
+}
+
+/* thin warm accent bar echoing the site's link gradient */
+.home-hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 5px;
+  background: linear-gradient(90deg, rgba(255,188,48,0.95) 0%, rgba(255,80,80,0.95) 100%);
+}
+
+.home-hero-inner {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: var(--spacer-2) var(--spacer);
+  color: #fff;
+}
+
+.home-hero-kicker {
+  margin: 0 0 0.4em;
+  font-size: 0.8em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ffd9a3;
+}
+
+/* scoped under .home-hero to outrank the theme's `.page h2 { color }` rule */
+.home-hero .home-hero-title {
+  margin: 0 0 0.35em;
+  font-size: clamp(1.6em, 4.5vw, 2.5em);
+  line-height: 1.15;
+  color: #fff;
+  text-shadow: 0 2px 18px rgba(0,0,0,0.55);
+}
+
+.home-hero-lead {
+  margin: 0 0 1.1em;
+  max-width: 34em;
+  font-size: 1.05em;
+  line-height: 1.5;
+  color: rgba(255,255,255,0.92);
+  text-shadow: 0 1px 12px rgba(0,0,0,0.5);
+}
+
+.home-hero-actions {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 0.55em 1.15em;
+  border-radius: 999px;
+  border: 1.5px solid rgba(255,255,255,0.7);
+  font-weight: 600;
+  color: #fff;
+  transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  transform: translateY(-2px);
+  background: rgba(255,255,255,0.14);
+  -webkit-text-fill-color: #fff; /* override the global gradient-text link hover */
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-btn-primary {
+  border-color: transparent;
+  color: #2a0f0f;
+  background: linear-gradient(180deg, rgba(255,188,48,1) 0%, rgba(255,120,80,1) 100%);
+}
+
+.hero-btn-primary:hover,
+.hero-btn-primary:focus {
+  color: #2a0f0f;
+  -webkit-text-fill-color: #2a0f0f;
+  filter: brightness(1.05);
+}
+
+/* dynamic treatment for the research / teaching section images */
+.feature-img {
+  display: block;
+  width: 100%;
+  margin: 0.5em 0 1.4em;
+  border-radius: 10px;
+  box-shadow: 0 8px 26px rgba(0,0,0,0.16);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.feature-img:hover {
+  transform: translateY(-4px) scale(1.008);
+  box-shadow: 0 16px 38px rgba(0,0,0,0.26);
+}
+
+/* full-bleed "on stage" performance strip */
+.home-perf {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  width: 100vw;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: var(--spacer-3);
+  margin-bottom: var(--spacer-2);
+  padding: var(--spacer-2) 0;
+  background: var(--code-bg-color);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.home-perf-inner {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 0 var(--spacer);
+}
+
+.home-perf-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1em;
+  margin-bottom: 0.9em;
+}
+
+.home-perf-head h2 {
+  margin: 0;
+  font-size: 1.3em;
+}
+
+.home-perf-head a {
+  font-size: 0.85em;
+  font-weight: 600;
+}
+
+.home-perf-scroll {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(230px, 1fr);
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 0.6em;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.home-perf-scroll a {
+  display: block;
+  scroll-snap-align: start;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.home-perf-scroll img {
+  display: block;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.home-perf-scroll a:hover img,
+.home-perf-scroll a:focus img {
+  transform: scale(1.05);
+}
+
 /* performance hero gallery */
 .perf-gallery {
   display: grid;
