@@ -3,9 +3,35 @@ layout: page
 title: SMCClab
 ---
 
-Welcome to the Sound, Music, and Creative Computing Lab at the Australian National University [School of Computing](https://comp.anu.edu.au).
+<section class="home-hero" id="home-hero"
+  data-hero-images="{% link assets/NIME2026-charles-yichen-performing-1.jpg %},{% link assets/NIME2026-charles-yichen-performing-2.jpg %},{% link assets/2025-smcclablive-1-1.jpg %},{% link assets/2025-dream-tent.jpg %},{% link assets/2023-beyond-realms.jpg %}"
+  style="background-image: url('{% link assets/NIME2026-charles-yichen-performing-1.jpg %}');">
+  <div class="home-hero-inner">
+    <img class="home-hero-logo" src="{% link assets/lab-logo/smcclab-white.png %}" alt="SMCClab — Sound, Music and Creative Computing Lab">
+    <h2 class="home-hero-title">New musical instruments that sense, understand, and perform.</h2>
+    <p class="home-hero-lead">We build intelligent instruments and creative computing systems — then take them on stage as both a research method and a creative output.</p>
+    <p class="home-hero-actions">
+      <a class="hero-btn hero-btn-primary" href="{{ '/performances/' | relative_url }}">See our performances</a>
+      <a class="hero-btn" href="{{ '/join/' | relative_url }}">Join the lab</a>
+    </p>
+  </div>
+</section>
 
-![]({% link assets/smcclab-title-slide.jpg %})
+<script>
+// Pick a random performance photo behind the hero logo on each visit.
+(function () {
+  var hero = document.getElementById('home-hero');
+  if (!hero) return;
+  var imgs = (hero.getAttribute('data-hero-images') || '').split(',').filter(Boolean);
+  if (imgs.length < 2) return;
+  var pick = imgs[Math.floor(Math.random() * imgs.length)];
+  var pre = new Image();
+  pre.onload = function () { hero.style.backgroundImage = "url('" + pick + "')"; };
+  pre.src = pick;
+})();
+</script>
+
+Welcome to the Sound, Music, and Creative Computing Lab at the Australian National University [School of Computing](https://comp.anu.edu.au).
 
 Our lab aims to develop **new musical instruments** that sense and understand music, actively **assisting musicians** during performances. We apply **computational intelligence**, **AR/VR**, and **sonic interaction design** in creative contexts. We explore how creative computing can inform studies of collaboration, spatial interaction, and decision making.
 
@@ -37,31 +63,49 @@ SMCClab explores research in the broad area of sound, music and creative computi
 
 ### Collaborative Interfaces
 
-![]({% link assets/collaboration.jpg %})
+![Musicians playing networked touchscreen musical instruments together]({% link assets/collaboration.jpg %}){:.feature-img}
 
 This research aims to create new ways for groups to make music together. We created **touchscreen musical instruments** that communicate interactions over a network.  These instruments engage music performers in new kinds of **ensemble interaction**.
 
 ### Spatial Interaction
 
-![]({% link assets/spatial.jpg %})
+![Performer using freehand gestures with a spatial AR/VR musical instrument]({% link assets/spatial.jpg %}){:.feature-img}
 
 We create **authentic spatial musical apps** that support interaction in AR/VR computers. We experimented with new **freehand gestures** in AR and have deployed a spiral-shaped keyboard in collaborative music experiments as well as artistic performances.
 
 ### Generative Sound
 
-![]({% link assets/spectrogram.jpg %})
+![Spectrogram of AI-generated sound]({% link assets/spectrogram.jpg %}){:.feature-img}
 
 AI-generated sound could change the way we make sounds and create music. We have developed a new approach to **singing-voice synthesis** focussed on more **accurate duration predictions**, enabling end-to-end training. We are now looking at novel **text-to-sound** generation models.
 
 ### Intelligent Interfaces
 
-![]({% link assets/intelligent.jpg %})
+![EMPI, a portable musical robot with a one-dimensional interface, responding to a performer]({% link assets/intelligent.jpg %}){:.feature-img}
 
 Intelligent instruments predict human musical interactions to help them create music. We model **embodied musical interactions**, or the movements of human performers. Our prototypes include **EMPI**, a portable musical robot that responds to performances with a 1-dimensional musical interface.
 
+<section class="home-perf">
+  <div class="home-perf-inner">
+    <div class="home-perf-head">
+      <h2>On stage</h2>
+      <a href="{{ '/performances/' | relative_url }}">All performances →</a>
+    </div>
+    <div class="home-perf-scroll">
+      <a href="{{ '/performances/' | relative_url }}"><img src="{% link assets/NIME2026-charles-yichen-performing-2.jpg %}" alt="Intelligent instrument performance at NIME 2026, London" loading="lazy"></a>
+      <a href="{{ '/performances/' | relative_url }}"><img src="{% link assets/2026-charles-martin-soundout.jpg %}" alt="Charles Martin performing with intelligent instruments at SoundOut Festival 2026" loading="lazy"></a>
+      <a href="{{ '/performances/' | relative_url }}"><img src="{% link assets/2025-smcclablive-1-1.jpg %}" alt="Spatial AR/VR musical performance at SMCClab Live" loading="lazy"></a>
+      <a href="{{ '/performances/' | relative_url }}"><img src="{% link assets/2025-dream-tent.jpg %}" alt="Dream Tent installation with Martyn Jolly at the ANU Drill Hall Gallery" loading="lazy"></a>
+      <a href="{{ '/performances/' | relative_url }}"><img src="{% link assets/2023-beyond-realms.jpg %}" alt="破境 // beyond realms by Yichen Wang and Sandy Ma at ACMC 2023" loading="lazy"></a>
+      <a href="{{ '/performances/' | relative_url }}"><img src="{% link assets/metatone-hands-header.jpg %}" alt="Ensemble Metatone touchscreen performance" loading="lazy"></a>
+      <a href="{{ '/performances/' | relative_url }}"><img src="{% link assets/2026-06-SandyMa-HautedTreasures-work.jpg %}" alt="Sandy Ma, Haunted Treasures at Platform, Canberra Contemporary" loading="lazy"></a>
+    </div>
+  </div>
+</section>
+
 ## Teaching
 
-![]({% link assets/laptop-ensemble-promo.jpg %})
+![ANU Laptop Ensemble performing together]({% link assets/laptop-ensemble-promo.jpg %}){:.feature-img}
 
 [Charles](https://charlesmartin.au) and other SMCClab members are involved in teaching several courses at the ANU, including:
 
