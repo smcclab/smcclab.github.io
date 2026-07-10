@@ -3,9 +3,11 @@ layout: page
 title: SMCClab
 ---
 
-<section class="home-hero" style="background-image: url('{% link assets/NIME2026-charles-yichen-performing-1.jpg %}');">
+<section class="home-hero" id="home-hero"
+  data-hero-images="{% link assets/NIME2026-charles-yichen-performing-1.jpg %},{% link assets/NIME2026-charles-yichen-performing-2.jpg %},{% link assets/2025-smcclablive-1-1.jpg %},{% link assets/2025-dream-tent.jpg %},{% link assets/2023-beyond-realms.jpg %}"
+  style="background-image: url('{% link assets/NIME2026-charles-yichen-performing-1.jpg %}');">
   <div class="home-hero-inner">
-    <p class="home-hero-kicker">Sound, Music &amp; Creative Computing · ANU</p>
+    <img class="home-hero-logo" src="{% link assets/lab-logo/smcclab-white.png %}" alt="SMCClab — Sound, Music and Creative Computing Lab">
     <h2 class="home-hero-title">New musical instruments that sense, understand, and perform.</h2>
     <p class="home-hero-lead">We build intelligent instruments and creative computing systems — then take them on stage as both a research method and a creative output.</p>
     <p class="home-hero-actions">
@@ -14,6 +16,20 @@ title: SMCClab
     </p>
   </div>
 </section>
+
+<script>
+// Pick a random performance photo behind the hero logo on each visit.
+(function () {
+  var hero = document.getElementById('home-hero');
+  if (!hero) return;
+  var imgs = (hero.getAttribute('data-hero-images') || '').split(',').filter(Boolean);
+  if (imgs.length < 2) return;
+  var pick = imgs[Math.floor(Math.random() * imgs.length)];
+  var pre = new Image();
+  pre.onload = function () { hero.style.backgroundImage = "url('" + pick + "')"; };
+  pre.src = pick;
+})();
+</script>
 
 Welcome to the Sound, Music, and Creative Computing Lab at the Australian National University [School of Computing](https://comp.anu.edu.au).
 
