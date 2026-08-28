@@ -11,6 +11,33 @@
 #   bibtex:
 #   note:
 
+- name: Xinlei Niu
+  title: PhD student
+  url: https://www.linkedin.com/in/xinlei-niu-544ab6216/
+  project-title: Generative Audio Synthesis in Sound, Speech, and Music
+  thesis-url: https://hdl.handle.net/1885/733814249
+  thesis-doi:
+  dates: 2022-2026
+  image:
+  note: >
+    Xinlei's PhD developed six methods for making generative audio synthesis more efficient, flexible, and controllable across speech, environmental sound, and music.
+    She now works at TikTok in Sydney.
+  abstract: >
+    Audio is an important modality through which humans perceive and interpret the world. From speech and environmental sounds to music, it contains linguistic, emotional, and contextual information that can represent artistic expression. With the rapid progress of machine learning and generative AI, generative audio synthesis has emerged as a powerful approach to automatically producing realistic and diverse sounds, speech, and music content. However, current methods have challenges in requiring large computational resources, lacking flexibility across audio content, and offering limited controllability to users in practice.
+    This thesis aims to tackle these limitations by developing audio synthesis techniques that are efficient, flexible, and controllable. This thesis explores how generative models can be designed to operate effectively under training resource constraints, adapt across different and diverse creative audio content, and allow for fine-grained and customized control to users. To achieve these goals, six complementary methods are proposed in this thesis. Among them, SoundLoCD in Chapter 3 and BDP in Chapter 5 focus on training efficiency, introducing a lightweight diffusion framework and a discrete latent optimal path modeling framework that preserve quality while reducing training computational requirements and strategies. HybridVC in Chapter 6 and SoundMorpher in Chapter 7 advance flexibility by enabling flexible voice conversion and seamless sound morphing across multi-modalities conditions. BVS in Chapter 4 and SteerMusic in Chapter 8 enhance synthesizing controllability, which allows fine-grained alignment between audio and visual context and empowers user-driven editing in music generation.
+    In summary, these contributions form a unified perspective on AI-generated content of audio synthesis, which treats speech, sound, and music not as isolated problems but as interconnected domains of users immersive auditory experience. The resulting proposed methods move toward a future where audio generation is accessible, adaptive, and deeply integrated into creative, assistive, and interactive applications.
+  bibtex: |
+    ```
+    @phdthesis{Niu:2026,
+        author = {Niu, Xinlei},
+        title = {Generative Audio Synthesis in Sound, Speech, and Music},
+        school = {School of Computing, The Australian National University},
+        year = {2026},
+        address = {Canberra, Australia},
+        url = {https://hdl.handle.net/1885/733814249}
+    }
+    ```
+
 - name: Feiyue Tao
   title: Master student
   url: https://www.linkedin.com/in/feiyue-tao/
@@ -36,7 +63,7 @@
     ```
 
 - name: Xinlei Niu
-  title: Master student at ANU
+  title: Master student
   url: https://www.linkedin.com/in/xinlei-niu-544ab6216/
   project-title: Acoustic Scene Classification with Attention-based Neural Networks
   thesis-url: http://hdl.handle.net/1885/270565
