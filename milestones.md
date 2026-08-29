@@ -35,7 +35,7 @@ Your **First Annual Plan** will be due 3 months after you start your PhD. This m
 - define a main research motivation and objective
 - find and review a reasonable amount of scholarly literature to support and motivate your research direction
 - create a plausible research plan for the next 9 months
-- start the process of applying for [ANU Human Ethics approval](https://services.anu.edu.au/research-support/ethics-integrity/getting-ethics-approval) if this will be needed in your work
+- start the process of applying for [ANU Human Ethics approval](https://services.anu.edu.au/research-support/research-ethics-integrity-compliance/human-ethics) if this will be needed in your work
 - start obtaining necessary IT or other research equipment for your work
 - gain access to labs or facilities needed for your work including doing required inductions or becoming known to technical staff
 - **start developing your research artifacts or pursuing the initial studies in your program!**

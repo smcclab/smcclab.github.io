@@ -38,5 +38,5 @@ This list is generated from our
 <a href="https://github.com/cpmpercussion/preprints/blob/main/publications.bib">public BibTeX record</a>.
 A fuller record including creative works, software, and talks is on
 <a href="https://charlesmartin.au">Charles Martin's site</a> and
-<a href="https://scholar.google.com/citations?user=fF9nUQ8AAAAJ">Google Scholar</a>.
+<a href="https://scholar.google.com/citations?user=mTlH4G8AAAAJ">Google Scholar</a>.
 </p>

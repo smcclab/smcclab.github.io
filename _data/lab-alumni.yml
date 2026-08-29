@@ -40,7 +40,7 @@
 
 - name: Dr Yichen Wang
   title: PhD
-  url: https://yichenwangs.github.io/
+  url: https://www.yichenwang.io/
   project-title: "Beyond Mapping: Exploring Spatial Musical Interface Design with Augmented Reality"
   thesis-url: https://hdl.handle.net/1885/733805178
   thesis-doi: 10.25911/G8TH-6V80
@@ -138,7 +138,7 @@
 
 - name: Dr Yichen Wang
   title: Master student
-  url: https://yichenwangs.github.io/
+  url: https://www.yichenwang.io/
   project-title: "Sonic sculptural staircase: An investigation of highly immersive and world aware augmented reality in augmented sculptural staircase experience"
   thesis-url: http://hdl.handle.net/1885/271450  
   thesis-doi: 10.25911/SRRQ-4  
@@ -244,7 +244,7 @@
   title: PhD Researcher at University of Oslo
   url: https://robotikk.net/
   project-title: "Legging It: An Evolutionary Approach to Morphological Adaptation for a Real-World Quadruped Robot"
-  thesis-url: http://urn.nb.no/URN:NBN:no-84402
+  thesis-url: https://urn.nb.no/URN:NBN:no-84402
   thesis-doi:
   dates: 2016-2020
   image:
@@ -253,14 +253,14 @@
   note: |
     Tønnes created a open-source quadruped robotics platform with mechanically extensible legs for evolving robot morphology in real-world activity. 
     His work was featured in [Nature: Machine Intelligence](https://doi.org/10.1038/s42256-021-00320-3), [Evolutionary Computation](https://doi.org/10.1162/evco_a_00291) and [was widely reported in the press](https://robotikk.net/website/mentions/). 
-    Tønnes now holds a faculty position at [Oslo Metropolitan University](https://www.oslomet.no/om/ansatt/tonnesfr/) and collaborates with the University of Oslo, Norwegian Defence Research Establishment, and CSIRO Data61.
+    Tønnes now holds a faculty position at Oslo Metropolitan University and collaborates with the University of Oslo, Norwegian Defence Research Establishment, and CSIRO Data61.
 
 
 - name: Torgrim Næss
   title: Master student at University of Oslo 
   url: https://www.linkedin.com/in/torgrim-rudland-n%C3%A6ss-12539aa2/
   project-title: A Physical Intelligent Instrument using Recurrent Neural Networks
-  thesis-url: http://urn.nb.no/URN:NBN:no-73901
+  thesis-url: https://urn.nb.no/URN:NBN:no-73901
   thesis-doi:
   dates: 2018-2019
   image:
@@ -274,7 +274,7 @@
         School = {University of Oslo},
         Year = {2019},
         Address = {Oslo, Norway},
-        URL = {http://urn.nb.no/URN:NBN:no-73901},
+        URL = {https://urn.nb.no/URN:NBN:no-73901},
     }
     ```
   note: This thesis resulted in a [NIME publication!](http://www.nime.org/proceedings/2019/nime2019_paper016.pdf).
@@ -285,7 +285,7 @@
   title: Master student at University of Oslo
   url: https://www.linkedin.com/in/viktoria-r%C3%B8sj%C3%B8-0a9330230/
   project-title: Variational Autoencoders with Mixture Density Networks for Sequence Prediction in Algorithmic Composition - A Musical World Model
-  thesis-url: http://urn.nb.no/URN:NBN:no-70656
+  thesis-url: https://urn.nb.no/URN:NBN:no-70656
   thesis-doi:
   dates:
   image:
@@ -301,7 +301,7 @@
     School = {University of Oslo},
     Year = {2019},
     Address = {Oslo, Norway},
-    URL = {http://urn.nb.no/URN:NBN:no-70656},
+    URL = {https://urn.nb.no/URN:NBN:no-70656},
     }
     ```
   note:
@@ -311,7 +311,7 @@
   title: Master student at University of Oslo
   url: https://www.linkedin.com/in/benedikte-wallace-8b489782/
   project-title: Predictive songwriting with concatenative accompaniment
-  thesis-url: http://urn.nb.no/URN:NBN:no-65381
+  thesis-url: https://urn.nb.no/URN:NBN:no-65381
   thesis-doi:
   dates: 2016-2018
   image:
@@ -325,7 +325,7 @@
         School = {University of Oslo},
         Year = {2018},
         Address = {Oslo, Norway},
-        URL = {http://urn.nb.no/URN:NBN:no-65381},
+        URL = {https://urn.nb.no/URN:NBN:no-65381},
     }
     ```
   note:
@@ -335,7 +335,7 @@
   title: Master student at University of Oslo
   url: https://www.linkedin.com/in/henrikbrustad/
   project-title: Digital Audio Generation with Neural Networks
-  thesis-url: http://urn.nb.no/URN:NBN:no-66304
+  thesis-url: https://urn.nb.no/URN:NBN:no-66304
   thesis-doi:
   dates: 2016-2018
   image:
@@ -351,7 +351,7 @@
         Title = {Digital Audio Generation with Neural Networks},
         School = {University of Oslo},
         Year = {2018},
-        URL = {http://urn.nb.no/URN:NBN:no-66304},
+        URL = {https://urn.nb.no/URN:NBN:no-66304},
     }
     ```
   note:

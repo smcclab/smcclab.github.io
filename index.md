@@ -1,6 +1,8 @@
 ---
 layout: page
 title: SMCClab
+description: "The Sound, Music and Creative Computing Lab at the ANU School of Computing — building intelligent musical instruments that sense, understand, and perform."
+tags: [SMCClab, ANU, sound, music, creative-computing, intelligent-instruments, research]
 ---
 
 <section class="home-hero" id="home-hero"
@@ -55,8 +57,6 @@ Our lab aims to develop **new musical instruments** that sense and understand mu
 
 ([list of lab alumni and former students](/alumni/))
 
-SMCClab members are involved in teaching several courses at the ANU, including [Sound and Music Computing (COMP4350/8350)](https://comp.anu.edu.au/courses/comp4350), [Art and Interaction Computing (COMP1720/6720)](https://comp.anu.edu.au/courses/comp1720), [Human-Computer Interation (COMP3900/6390)](https://programsandcourses.anu.edu.au/course/comp3900) and [ANU Creative Computing Extension](https://comp.anu.edu.au/courses/extn1019/).
-
 ## Research Areas
 
 SMCClab explores research in the broad area of sound, music and creative computing. We apply research methods from human computer interaction, signal processing, and creative arts. In all of our work, creative interaction is used as a critical research method and as a medium for producing unique outputs.
@@ -109,8 +109,8 @@ Intelligent instruments predict human musical interactions to help them create m
 
 [Charles](https://charlesmartin.au) and other SMCClab members are involved in teaching several courses at the ANU, including:
 
-- [Sound and Music Computing (COMP4350/8350)](https://comp.anu.edu.au/courses/laptop-ensemble), 
-- [Human Computer Interaction (COMP3900/6390)](https://smcclab.github.io/thirty-nine-hundred-hci/),
+- [Sound and Music Computing (COMP4350/8350)](https://comp.anu.edu.au/courses/comp4350), 
+- [Human Computer Interaction (COMP3900/6390)](https://smcclab.au/thirty-nine-hundred-hci/),
 - [Art and Interaction Computing (COMP1720/6720)](https://comp.anu.edu.au/courses/comp1720),
 - [ANU Creative Computing Extension](https://comp.anu.edu.au/courses/extn1019/).
 

@@ -2,12 +2,14 @@
 layout: page
 title: About SMCClab
 permalink: /about/
+description: "About the Sound, Music and Creative Computing Lab at the ANU School of Computing — expressive musical sensing, musical machine learning, and musical human-computer interaction."
+tags: [about, SMCClab, ANU, intelligent-instruments, machine-learning, music-HCI]
 ---
 The Sound, Music and Creative Computing Lab is part of the  [School of Computing](https://comp.anu.edu.au) at the Australian National University.
 
 The goal of the lab is to create **new kinds of musical instruments** that **sense** and **understand** music. These instruments will actively respond during performances to assist musicians.
 
-![Performing on touchscreens and percussion]({{site.baseurl}}/assets/metatone-hands-header.jpg)
+![Performing on touchscreens and percussion]({% link assets/metatone-hands-header.jpg %})
 
 We envision that musical instruments of the future will do more than react to musicians. They will **predict their human player’s intentions** and **sense the current artistic context**. Intelligent instruments will use this information to shape their sonic output. They might seamlessly add expression to sounds, update controller mappings, or even generate notes that the performer hasn’t played (yet!).
 

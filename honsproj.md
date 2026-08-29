@@ -107,7 +107,7 @@ For a two-semester (24 week) project, a good project plan might look something l
 
 ## Ethics Approval
 
-If you are studying humans (surveys, questionnaires, user studies) you **need** [ethics approval](https://services.anu.edu.au/research-support/ethics-integrity/getting-ethics-approval).
+If you are studying humans (surveys, questionnaires, user studies) you **need** [ethics approval](https://services.anu.edu.au/research-support/research-ethics-integrity-compliance/human-ethics).
 
 > All Australian National University researchers (staff or students) who intend on conducting research involving the collection of data from human participants need to apply for ANU Human Ethics approval before starting their data collection.
 

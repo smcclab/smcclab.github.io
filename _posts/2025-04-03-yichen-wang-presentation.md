@@ -9,9 +9,9 @@ tags: [phd-presentation, research, augmented-reality, musical-interfaces, yichen
 - Time: 11:00am
 - Venue: N101 Seminar Room, Ground Floor, Skaidrite Darius Building 108.
 
-![]({% link assets/artificial-friends-min.jpg %})
+![Yichen Wang wearing a HoloLens AR headset, playing a keyboard controller and synthesiser on stage]({% link assets/artificial-friends-min.jpg %})
 
-PhD researcher [Yichen Wang](https://yichenwangs.github.io) will deliver her
+PhD researcher [Yichen Wang](https://www.yichenwang.io) will deliver her
 Oral Presentation on Tuesday 8 April 2025 at 11:00am in N101 Seminar Room,
 Ground Floor Skaidrite Darius Building 108. All welcome! 
 

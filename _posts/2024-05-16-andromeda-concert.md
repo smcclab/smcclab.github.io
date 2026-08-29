@@ -10,7 +10,7 @@ tags: [concert, live-performance, andromeda-is-coming, augmented-reality, ai-ins
 - Venue: Big Band Room, ANU School of Music
 - Tickets: Free
 
-![]({% link assets/2024-aicaif-concert.jpg %})
+![Concert poster: Andromeda is Coming (Charles Martin // Alec Hunter) feat. Yichen Wang & Sandy Ma + artificially intelligent friends, 29 May 2024, 19:30, Big Band Room]({% link assets/2024-aicaif-concert.jpg %})
  
 A 60-minute performance of new music for new AI musical instruments featuring Alec Hunter, Charles Martin, Yichen Wang and Sandy Ma.
  
