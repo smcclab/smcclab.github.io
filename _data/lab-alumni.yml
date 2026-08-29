@@ -65,6 +65,30 @@
     }
     ```
 
+- name: Dr Benedikte Wallace
+  title: PhD at University of Oslo
+  url: https://www.linkedin.com/in/benedikte-wallace-8b489782/
+  project-title: AI-generated Dance and The Subjectivity Challenge
+  thesis-url: https://hdl.handle.net/11250/3618961
+  thesis-doi:
+  dates: 2018-2023
+  image:
+  note: >
+    Benedikte's PhD collected a motion capture dataset of dance improvisation, trained generative models on it, and evaluated the resulting AI-generated dance with dancers and choreographers.
+  abstract: >
+    The inherently subjective notion of quality in creative artefacts gives rise to both technical and philosophical questions regarding AI-generated art. In this thesis, the development and evaluation of AI-generated dance forms the context within which these questions are explored. Dance is a multifaceted art form and a rich, complex data source. The main objectives of this thesis are to understand more about how deep learning can be used to capture salient features of dance movement using full-body motion capture data. We further explore how such technology might be aimed to benefit the creative practice of dancers. Our work includes the collection of a data set of improvisation performed by individual dancers and the implementation of generative models trained on this data. We evaluate the models' ability to learn the intricate relationship between music and movement and investigate the trained model's generative versatility. We also examine the generated dance through subjective assessment in a survey, and through dialogue and embodiment exercises with experienced dancers and choreographers. This work broadens our understanding of how leveraging the ability of AI to go beyond a mere replica of human movement can itself lead to engagement and inspiration.
+  bibtex: |
+    ```
+    @phdthesis{Wallace:2023,
+        author = {Wallace, Benedikte},
+        title = {AI-generated Dance and The Subjectivity Challenge},
+        school = {Department of Informatics, University of Oslo},
+        year = {2023},
+        address = {Oslo, Norway},
+        url = {https://hdl.handle.net/11250/3618961}
+    }
+    ```
+
 - name: Feiyue Tao
   title: Master student
   url: https://www.linkedin.com/in/feiyue-tao/
@@ -201,7 +225,7 @@
   note:
 
 
-- name: Benedikte Wallace
+- name: Dr Benedikte Wallace
   title: Master student at University of Oslo
   url: https://www.linkedin.com/in/benedikte-wallace-8b489782/
   project-title: Predictive songwriting with concatenative accompaniment
