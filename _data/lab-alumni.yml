@@ -11,8 +11,8 @@
 #   bibtex:
 #   note:
 
-- name: Xinlei Niu
-  title: PhD student
+- name: Dr Xinlei Niu
+  title: PhD
   url: https://www.linkedin.com/in/xinlei-niu-544ab6216/
   project-title: Generative Audio Synthesis in Sound, Speech, and Music
   thesis-url: https://hdl.handle.net/1885/733814249
@@ -35,6 +35,33 @@
         year = {2026},
         address = {Canberra, Australia},
         url = {https://hdl.handle.net/1885/733814249}
+    }
+    ```
+
+- name: Dr Yichen Wang
+  title: PhD
+  url: https://yichenwangs.github.io/
+  project-title: "Beyond Mapping: Exploring Spatial Musical Interface Design with Augmented Reality"
+  thesis-url: https://hdl.handle.net/1885/733805178
+  thesis-doi: 10.25911/G8TH-6V80
+  dates: 2021-2026
+  image:
+  note: >
+    Yichen designed and studied three spatial musical interfaces for head-mounted AR, covering freehand solo performance, collaborative performance between musicians, and human-AI co-creation.
+  abstract: >
+    This thesis investigates the design of spatial interfaces for musical expression in head-mounted augmented reality (AR) systems, focusing on how such interfaces can support real-time performance, collaboration between musicians, and co-creation with artificial intelligence (AI). In recent years, AR has evolved into a spatial computing medium that enables embodied, multisensory interaction, opening new possibilities for creative expression. In digital musical instrument (DMI) design, integrating AR expands the traditional input-output mapping paradigm by enabling more fluid and collaborative forms of musical interaction. In this research, spatial musical interfaces in head-mounted AR systems are designed through three key dynamics: emergent through freehand interaction, situated through collaborative performance, and mediated through human-AI co-creation. These systems were evaluated through formal studies with musicians to validate design principles and deepen the understanding of how AR reshapes musical experience. A mixed-methods approach, combining the first-person design through performance and formal user evaluations, guides the step-by-step progression from exploration to validation.
+    Throughout this thesis, three spatial musical systems are introduced and studied: (1) a freehand-enabled spatial interface for individual expression, developed iteratively through creative practice; (2) a collaborative system designed to support mutual awareness and engagement, evaluated through a factorial design varying real-time visualisation conditions; (3) an extension of the collaborative system for human-AI co-creation, developed through auto-ethnographic exploration of system configuration and performance topologies. The first study, involving twenty musicians, evaluated the freehand interface's usability, playability, and musical experiences. The results revealed how AR's spatial mobility, interaction and sonic integration enabled new expressive possibilities. The second study with four pairs of musicians examined usability, workload, situational awareness and mutual engagement on the collaborative system. The findings revealed that visualising bodily and instrument actions improved mutual awareness and fostered cohesive musical interaction. The final study with sixteen musicians introduced an AI collaborator. By varying the number of human musicians in group improvisations, the findings demonstrated that transparent visualisation improved musicians' understanding of the AI collaborator's contribution, while the presence of a second human performer reshaped co-creative dynamics and meaning-making.
+    Overall, this research presents a series of spatial musical interface designs for head-mounted AR systems, advancing novel musical experiences in individual, collaborative, and co-creative contexts. It demonstrates that the design of novel musical expression in AR emerges not from fixed mappings, but from dynamic, situated, and mediated relationships shaped by spatial interaction and social engagement.
+  bibtex: |
+    ```
+    @phdthesis{Wang:2026,
+        author = {Wang, Yichen},
+        title = {Beyond Mapping: Exploring Spatial Musical Interface Design with Augmented Reality},
+        school = {College of Systems and Society, The Australian National University},
+        year = {2026},
+        address = {Canberra, Australia},
+        doi = {10.25911/G8TH-6V80},
+        url = {https://hdl.handle.net/1885/733805178}
     }
     ```
 
@@ -62,7 +89,7 @@
     }
     ```
 
-- name: Xinlei Niu
+- name: Dr Xinlei Niu
   title: Master student
   url: https://www.linkedin.com/in/xinlei-niu-544ab6216/
   project-title: Acoustic Scene Classification with Attention-based Neural Networks
@@ -85,7 +112,7 @@
     Auditory information provides great help to human beings to recognize their surroundings and positions. However, the sound we perceived in the environment is often a mixture of many sounds that happened at the same time. Therefore, developing a system to automatically extract information from unprocessed audio provides a huge potential for human beings. For example, it can be utilized by automatic diving, multimedia searching, robots, etc. In this study, we proposed two Attention-based Neural Network models to achieve automatic acoustic scene classification systems. Both two models are powerful in extracting information on audio spectrograms and classifying them into their corresponding scene labels. We applied two acoustic scene datasets to verify our model and got the best accuracies which are 15.7% and 8.0% higher than their CNN baselines.
   note:
 
-- name: Yichen Wang
+- name: Dr Yichen Wang
   title: Master student
   url: https://yichenwangs.github.io/
   project-title: "Sonic sculptural staircase: An investigation of highly immersive and world aware augmented reality in augmented sculptural staircase experience"
@@ -107,7 +134,7 @@
     ```
   note: > 
 
-- name: Tønnes Nygaard
+- name: Dr Tønnes Nygaard
   title: PhD Researcher at University of Oslo
   url: https://robotikk.net/
   project-title: "Legging It: An Evolutionary Approach to Morphological Adaptation for a Real-World Quadruped Robot"
