@@ -11,9 +11,9 @@ Here are links to research produced by PhD, Master, and Honours students who hav
 If you'd like to work on something like this, check out the details on our [join page](/join/).
 
 {% for person in site.data.lab-alumni %}
-#### [{{ person.name }}]({{ person.url }}) ({{ person.title }} {{ person.dates }})
+#### {% if person.url %}[{{ person.name }}]({{ person.url }}){% else %}{{ person.name }}{% endif %} ({{ person.title }} {{ person.dates }})
 
-{{ person.project-title }} {% if person.thesis-url %}[(thesis)]({{ person.thesis-url }}){% endif %}
+{{ person.project-title }} {% if person.thesis-url %}[(thesis)]({{ person.thesis-url }}){% endif %}{% if person.publication %} [(paper)]({{ person.publication }}){% endif %}
 
 {{ person.note }}
 

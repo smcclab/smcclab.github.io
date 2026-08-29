@@ -158,6 +158,88 @@
     ```
   note: > 
 
+- name: Sandy Ma
+  title: Honours student
+  url: https://snud.me
+  project-title: "Touching Wires: Exploring Tactility in Human-AI Musical Co-Creation"
+  thesis-url: https://hdl.handle.net/1885/733784358
+  thesis-doi: 10.25911/8PGQ-HP40
+  dates: 2024
+  image:
+  note: >
+    Sandy built a quilted textile interface for a Bela-based synthesis instrument and studied call-and-response performance with it, both autoethnographically and in a user study.
+    She is now a PhD researcher in the SMCClab.
+  abstract: >
+    Tactile interaction is a cornerstone of how humans build relationships in the world, including those we create with computers and machines. This thesis details the development of a textile-based musical performance system integrated with machine intelligence to form sonic dialogues between human and machine. We use this system to explore tangible and embodied interactions within human-AI interaction. This work introduces a quilted interface that allows users to control a digital synthesis instrument based on the Bela audio platform. Configured as an interactive call-and-response interaction with machine-generated output, we investigate the role of soft textile interfaces in navigating relationships between human users and computer systems. This has been explored through autoethnographic data collated from the researcher's perspective in performing with the system, as well as user study data from participants interacting in a controlled environment. The development process of the system has been documented within this thesis, and results have been collected and analysed to evaluate the role of tactility in human-AI interaction. We find familiarity and communication as key themes in human-AI interaction. Tactility, sight, and audio all form integral access points to forming embodied understandings of novel systems. Textiles are an underexplored and novel way of inviting users in to explore interactive experiences and media.
+  bibtex: |
+    ```
+    @mastersthesis{Ma:2024,
+        author = {Ma, Sandy},
+        title = {Touching Wires: Exploring Tactility in Human-AI Musical Co-Creation},
+        type = {Honours thesis},
+        school = {School of Computing, The Australian National University},
+        year = {2024},
+        address = {Canberra, Australia},
+        doi = {10.25911/8PGQ-HP40},
+        url = {https://hdl.handle.net/1885/733784358}
+    }
+    ```
+
+- name: Rohan Proctor
+  title: Honours student
+  url:
+  project-title: Exploring an assistance tool for group laptop performances
+  thesis-url:
+  thesis-doi:
+  dates: 2019
+  image:
+  note: >
+    Rohan built a browser-based networked performance system that lets laptop ensemble players steer sequences from locally-run neural network models in real time.
+    His honours project became a NIME 2020 paper.
+  abstract: >
+    The popularity of applying machine learning techniques in musical domains has created an inherent availability of freely accessible pre-trained neural network (NN) models ready for use in creative applications. This work outlines the implementation of one such application in the form of an assistance tool designed for live improvisational performances by laptop ensembles. The primary intention was to leverage off-the-shelf pre-trained NN models as a basis for assisting individual performers either as musical novices looking to engage with more experienced performers or as a tool to expand musical possibilities through new forms of creative expression. The system expands upon a variety of ideas found in different research areas including new interfaces for musical expression, generative music and group performance to produce a networked performance solution served via a web-browser interface. The final implementation of the system offers performers a mixture of high and low-level controls to influence the shape of sequences of notes output by locally run NN models in real time, also allowing performers to define their level of engagement with the assisting generative models. Two test performances were played, with the system shown to feasibly support four performers over a four minute piece while producing musically cohesive and engaging music.
+  publication: https://doi.org/10.5281/zenodo.4813481
+  bibtex: |
+    ```
+    @inproceedings{Proctor:2020,
+        author = {Proctor, Rohan and Martin, Charles},
+        title = {A Laptop Ensemble Performance System using Recurrent Neural Networks},
+        booktitle = {Proceedings of the International Conference on New Interfaces for Musical Expression},
+        year = {2020},
+        pages = {43--48},
+        address = {Birmingham, UK},
+        doi = {10.5281/zenodo.4813481},
+        url = {http://hdl.handle.net/1885/294312}
+    }
+    ```
+
+- name: Robert McArthur
+  title: Undergraduate student
+  url: https://biology.anu.edu.au/people/robert-mcarthur
+  project-title: Evolutionary Music Making
+  thesis-url:
+  thesis-doi:
+  dates: 2020
+  image:
+  note: >
+    Robert made an interactive application that evolves music through user selection over an autoencoder's latent space.
+    His undergraduate project became an EvoMUSART 2021 paper, and he now works on phylogenetics software at the ANU Research School of Biology.
+  abstract: >
+    This paper presents a new interactive application that can generate music according to a user's preferences inspired by the process of biological evolution. The application composes sets of songs that the user can choose from as a basis for the algorithm to evolve new music. By selecting preferred songs over successive generations, the application allows the user to explore an evolutionary musical space. The system combines autoencoder neural networks and evolution with human feedback to produce music. The autoencoder component is used to capture the essence of musical structure from a known sample of songs in a lower-dimensional space. Evolution is then applied over this representation to create new pieces based upon previously generated songs the user enjoys. In this research, we introduce the application design and explore and analyse the autoencoder model. The songs produced by the application are also analysed to confirm that the underlying model has the ability to create a diverse range of music. The application can be used by composers working with dynamically generated music, such as for video games and interactive media.
+  publication: https://doi.org/10.1007/978-3-030-72914-1_29
+  bibtex: |
+    ```
+    @inproceedings{McArthur:2021,
+        author = {McArthur, Robert and Martin, Charles},
+        title = {An Application for Evolutionary Music Composition Using Autoencoders},
+        booktitle = {Artificial Intelligence in Music, Sound, Art and Design (EvoMUSART 2021)},
+        year = {2021},
+        pages = {443--458},
+        publisher = {Springer},
+        doi = {10.1007/978-3-030-72914-1_29}
+    }
+    ```
+
 - name: Dr Tønnes Nygaard
   title: PhD Researcher at University of Oslo
   url: https://robotikk.net/
