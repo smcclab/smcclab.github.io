@@ -36,6 +36,18 @@ tags: [tag1, tag2]
 
 **Root pages:** `index.md`, `about.md`, `join.md`, `posts.md`, `tags.md`
 
+### Student projects
+
+Projects are a Jekyll collection in `_projects/` (one file each, rendered at `/projects/<name>/` with `_layouts/project.html`). Front matter mirrors the ANU School of Computing website's `_projects` format (`title`, `tagline`, `authors`, `date`, `clusters`, `groups`, `levels`, `tags`) plus local keys: `theme` (a key in `_data/project_themes.yml`, which holds section titles and intros), `order`, `prerequisites`, and optional `level_note`. `projects.md` is the grouped index.
+
+To advertise a project on comp.anu.edu.au, export it into a local clone of `gitlab.anu.edu.au/jekyll-anu/computing-website`:
+
+```bash
+python3 scripts/export_to_computing.py ../computing-website <name> [<name>...]
+```
+
+This writes `_projects/smcclab-<name>.md` there with the computing site's "How to Apply" section and links back to smcclab.au.
+
 ### Includes
 
 - `youtubePlayer.html` — responsive YouTube embed: `{% include youtubePlayer.html id="VIDEO_ID" %}`

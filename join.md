@@ -39,7 +39,7 @@ Competitive PhD applicants should be interested in one of the research areas on 
 
 ## Student Projects
 
-We supervise student projects in sound and music computing, creativity support systems, computational creativity, music technology, and interactive systems. Available projects are listed on the [ANU School of Computing student project page](https://comp.anu.edu.au/study/projects/) (select "Sound, Music, and Creative Computing Lab" under "Research Group").
+We supervise student projects in sound and music computing, creativity support systems, computational creativity, music technology, and interactive systems. Current project ideas are on our [student projects page](/projects/), and official listings are on the [ANU School of Computing student project page](https://comp.anu.edu.au/study/projects/) (select "Sound, Music, and Creative Computing Lab" under "Research Group").
 
 Experience with a creative field is a must. Computing students should have taken either [COMP1720/6720 Art and Interaction Computing](https://comp.anu.edu.au/courses/comp1720) or [COMP4350/8350 Sound and Music Computing](https://comp.anu.edu.au/courses/comp4350) and obtained excellent results.
 

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+{%- assign theme = site.data.project_themes | where: "key", page.theme | first -%}
+<article class="page">
+  <p><a href="{{ '/projects/' | relative_url }}">&larr; All student projects</a>{% if theme %} &middot; {{ theme.title }}{% endif %}</p>
+  <h1 class="page-title">{{ page.title }}</h1>
+  <p><em>{{ page.tagline }}</em></p>
+  <p>
+    <strong>Level:</strong> {{ page.levels | join: ", " | replace: "Summer", "Summer research" }}<br>
+    {%- if page.level_note %}<strong>Length:</strong> {{ page.level_note }}<br>{% endif %}
+    <strong>Prerequisites:</strong> {{ page.prerequisites | markdownify | remove: "<p>" | remove: "</p>" | strip }}
+  </p>
+  {{ content }}
+  {%- if page.tags %}
+  <p><strong>Tags:</strong> {% for t in page.tags %}#{{ t }} {% endfor %}</p>
+  {%- endif %}
+  <h2>How to apply</h2>
+  <p>Contact <a href="https://comp.anu.edu.au/people/charles-martin/">Charles Martin</a> with your CV, your unofficial transcript (if you are an ANU student), and a brief statement (200 words) explaining how you would approach this project. Before applying, read the <a href="{{ '/join/' | relative_url }}">Join page</a> and our <a href="{{ '/honsproj/' | relative_url }}">project expectations</a>.</p>
+</article>

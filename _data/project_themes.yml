@@ -1,0 +1,25 @@
+- key: living-with
+  title: "Living with intelligent instruments"
+  intro: |
+    [IMPSY](https://github.com/cpmpercussion/impsy) is our platform for intelligent musical instruments. It records a musician's gestures from a MIDI controller, trains a small mixture density recurrent neural network (MDRNN) on that data, and then plays back and responds in live performance. It runs on laptops, Raspberry Pis, iPads (as an AUv3 plugin), and in the web browser.
+
+    So far, we have mostly studied these instruments in short lab sessions or through our own performance practice. We don't know much about what happens when musicians *live with* an intelligent instrument over weeks: collecting more data, retraining, and deciding whether the model is getting better or just different. The three projects below each take one part of that question and are planned to run from December to June.
+- key: artistic
+  title: "Artistic research projects"
+  intro: |
+    In artistic research, your own creative practice is the method: you learn about intelligent instruments by making music with them over time and reflecting carefully on what happens. Our recent work on material agency and AI feedback instruments used a duet practice with two AI instruments to show that control is not something a performer simply has. It shifts, is negotiated, and has to be learned through practice.
+
+    These projects suit students with an established musical practice who want to develop it alongside computing research. Outcomes include performances (e.g., at [SMCClab Live](/posts/)), recordings, and a written report. Your artefact is the instrument you build or configure and any code you write (IMPSY configurations, mappings, training scripts, analysis notebooks), released with your report alongside the documented practice. You'll use an established method, such as structured written reflection after each session analysed with reflexive thematic analysis or diffractive reading, so your report is research rather than a diary.
+
+    These are best as two-semester Honours or Master projects, as a practice needs time to develop. The lab provides the instruments (Raspberry Pis running IMPSY, controllers, and synthesisers), so you don't need your own gear. Recording or quoting other performers, or interviewing audiences, needs ethics approval, so talk to us early if your project involves anyone else.
+- key: theory
+  title: "Theoretical and critical projects"
+  intro: |
+    These projects suit students who are more interested in ideas, frameworks, and analysis than building systems. Each one produces a substantial piece of scholarly writing and could lead to a review or position paper.
+- key: bela
+  title: "Bela Gem projects"
+  intro: |
+    [Bela Gem](https://bela.io) is the new generation of the Bela embedded audio platform, built on the PocketBeagle 2 (quad-core ARM Cortex-A53, 512MB RAM). It offers sub-millisecond audio latency, 8 analog sensor inputs, 16 digital I/O, and USB MIDI. The Gem Multi version has 10 audio channels, including 8 DC-coupled outputs that can drive modular synthesisers directly. The lab has a Bela Gem Multi and an 8-channel audio system at the ANU School of Music for these projects.
+- key: hardware
+  title: "Hardware projects"
+  intro: |

@@ -15,3 +15,14 @@ plugins:
   - jekyll-paginate
 
 theme: monophase
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
