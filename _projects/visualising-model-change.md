@@ -10,7 +10,7 @@ groups:
   - Human-Centred Computing
   - Sound, Music and Creative Computing Lab
 levels:
-  - Summer
+  - Short
   - Honours
   - Masters
 tags:
@@ -28,8 +28,8 @@ Our NIME 2026 study (five musicians, one session each) suggested that visualisin
 
 In this project you'll design and build visualisations that compare datasets and models across sessions, as part of [impsy-web](https://github.com/cpmpercussion/impsy-web), IMPSY's browser-based version.
 
-- **Summer or one semester:** comparison views for dataset growth and model behaviour, built and tested on existing multi-session performance logs.
-- **Semester 1 Honours/Master (alongside the multi-week study):** the same, plus formative feedback sessions with musicians from the study during their final interviews.
+- **Short project:** comparison views for dataset growth and model behaviour, built and tested on existing multi-session performance logs.
+- **Full project:** the same, plus formative feedback sessions with musicians from the multi-week study during their final interviews (the study runs in Semester 1).
 
 ## Background reading
 

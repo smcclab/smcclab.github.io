@@ -52,7 +52,7 @@ Computing-website vocabulary (must match exactly):
 
 - `clusters`: always `Computing Foundations` only. Clusters are School of Computing subunits and Charles is in Foundations, so every lab project is a Foundations project regardless of topic.
 - `groups`: `Human-Centred Computing` and `Sound, Music and Creative Computing Lab` (the "Lab" is part of the title there).
-- `levels`: the computing site accepts only Bachelors, Honours, Masters, MPhil, PhD, Internship. `Summer` is local to smcclab.au; the exporter drops it from `levels` and adds a "Summer research" line to the page instead.
+- `levels`: the computing site accepts only Bachelors, Honours, Masters, MPhil, PhD, Internship. `Short` is local to smcclab.au and means a six-week summer research scholarship or a one-semester 6-unit COMP3740 project (treated as equivalent); the exporter turns it into `Bachelors` plus a "Short project" line. All Honours and Master projects run over two semesters, so project bodies use **Short project:** / **Full project:** bullets, never semester counts.
 
 ### Includes
 

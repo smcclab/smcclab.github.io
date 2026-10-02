@@ -10,7 +10,7 @@ groups:
   - Human-Centred Computing
   - Sound, Music and Creative Computing Lab
 levels:
-  - Summer
+  - Short
   - Honours
   - Masters
 tags:
@@ -29,8 +29,8 @@ IMPSY models are trained on tiny datasets: a few hours of one person's playing. 
 
 In this project you'll treat existing performance logs as a sequence of practice sessions, then compare strategies for updating an MDRNN after each one. A key part of the project is defining how to tell when a model has *actually* changed its musical behaviour, not just its validation loss (for example, by comparing the timing and values of gestures sampled from each model).
 
-- **Summer or one semester:** a reproducible experiment pipeline using IMPSY's dataset tools; retraining vs. fine-tuning on one instrument's data; validation loss plus one behavioural measure.
-- **Two semesters or Master:** add regularisation strategies and a second dataset (e.g., logs from the multi-week study project or other lab instruments), and recommend a procedure for updating models between sessions.
+- **Short project:** a reproducible experiment pipeline using IMPSY's dataset tools; retraining vs. fine-tuning on one instrument's data; validation loss plus one behavioural measure.
+- **Full project:** add regularisation strategies and a second dataset (e.g., logs from the multi-week study project or other lab instruments), and recommend a procedure for updating models between sessions.
 
 ## Background reading
 

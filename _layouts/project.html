@@ -10,8 +10,8 @@ layout: default
   <p><img src="{{ page.image | relative_url }}" alt="{{ page.image_alt }}" style="width:100%;height:auto;border-radius:4px;"></p>
   {%- endif %}
   <p>
-    <strong>Level:</strong> {{ page.levels | join: ", " | replace: "Summer", "Summer research" }}<br>
-    {%- if page.level_note %}<strong>Length:</strong> {{ page.level_note }}<br>{% endif %}
+    <strong>Level:</strong> {{ page.levels | join: ", " | replace: "Short", "Short project" }}<br>
+    <strong>Length:</strong> {% if page.levels contains "Short" %}A short project is a six-week summer research scholarship or a one-semester COMP3740 project. {% endif %}Honours and Master projects run over two semesters.<br>
     <strong>Prerequisites:</strong> {{ page.prerequisites | markdownify | remove: "<p>" | remove: "</p>" | strip }}
   </p>
   {{ content }}

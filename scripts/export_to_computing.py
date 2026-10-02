@@ -93,19 +93,22 @@ def export(name, dest):
         for value in set(yaml_list(blocks, key)) - collection_titles(dest, folder):
             print(f"warning: {name}: {key} value {value!r} is not a title in {dest / folder}", file=sys.stderr)
 
-    # "Summer" is a local level (summer research scholarships); the computing site has no such level.
+    # "Short" is a local level (six-week summer scholarship or one-semester COMP3740 project). The
+    # computing site has no such level, so it becomes "Bachelors" plus an explanatory line.
     levels = yaml_list(blocks, "levels")
-    summer = "Summer" in levels
+    short = "Short" in levels
     levels = [lv for lv in levels if lv in COMPUTING_LEVELS]
-    for lv in set(yaml_list(blocks, "levels")) - set(levels) - {"Summer"}:
+    if short and "Bachelors" not in levels:
+        levels.insert(0, "Bachelors")
+    for lv in set(yaml_list(blocks, "levels")) - set(levels) - {"Short"}:
         print(f"warning: {name}: dropped level {lv!r} (not in {COMPUTING_LEVELS})", file=sys.stderr)
     blocks["levels"] = ["levels:"] + [f"  - {lv}" for lv in levels]
 
-    details = []
-    if summer:
-        details.append("**Summer research:** This project is also available as a summer research scholarship project.")
+    details = ["**Length:** Honours and Master projects run over two semesters."]
+    if short:
+        details.append("**Short project:** Also available as a six-week summer research scholarship or a one-semester COMP3740 project (see the short-project scope below).")
     if yaml_scalar(blocks, "level_note"):
-        details.append(f"**Length:** {yaml_scalar(blocks, 'level_note')}")
+        details.append(f"**Note:** {yaml_scalar(blocks, 'level_note')}")
     if yaml_scalar(blocks, "prerequisites"):
         details.append(f"**Prerequisites:** {yaml_scalar(blocks, 'prerequisites')}")
 

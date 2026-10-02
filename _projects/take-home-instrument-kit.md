@@ -10,7 +10,7 @@ groups:
   - Human-Centred Computing
   - Sound, Music and Creative Computing Lab
 levels:
-  - Summer
+  - Short
   - Honours
   - Masters
 tags:
@@ -27,10 +27,10 @@ prerequisites: "Basic electronics and some experience with Raspberry Pi or Ardui
 
 To study intelligent instruments outside the lab, we need hardware that a musician can take home, plug in, and use without help. In this project you'll design a robust, low-cost kit around a Raspberry Pi running IMPSY: an enclosure, a simple interface for switching modes and starting retraining, status feedback (e.g., LEDs or a small display), and clear setup documentation. You'll build a small batch of kits and test them with musicians.
 
-As a summer project, this runs from December to February so the kits are ready for the multi-week study in Semester 1, and the study's onboarding sessions serve as your usability testing.
+As a summer project, this runs over six weeks from December to January so the kits are ready for the multi-week study in Semester 1, and the study's onboarding sessions serve as your usability testing.
 
-- **Summer or one semester:** an open hardware design with a bill of materials, a batch of five or more working kits, and setup testing.
-- **Two semesters or Master:** add design iterations based on how musicians use the kits at home.
+- **Short project:** an open hardware design with a bill of materials, a batch of five or more working kits, and setup testing.
+- **Full project:** add design iterations based on how musicians use the kits at home.
 
 ## Background reading
 

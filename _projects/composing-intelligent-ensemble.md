@@ -22,7 +22,6 @@ image_alt: "Yichen Wang and Charles Martin performing a duet with intelligent in
 theme: artistic
 order: 6
 prerequisites: "Composition or ensemble performance experience, and some music technology background (COMP4350/COMP8350 or equivalent)."
-level_note: "Honours projects run over two semesters; two semesters are preferred for Masters."
 ---
 
 Most intelligent instruments are designed for a solo performer. What happens when several performers, each with their own AI instrument, play together? How do you write a piece for them? In this project you'll compose and rehearse a work for a small ensemble of intelligent instruments (e.g., IMPSY instruments on Raspberry Pis), with a score, structure, or set of rules that deals with the AI instruments' unpredictability. You'll document the rehearsal process and reflect on how composition changes when some of the ensemble's decisions are made by AI.
