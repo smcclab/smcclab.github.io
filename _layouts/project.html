@@ -6,6 +6,9 @@ layout: default
   <p><a href="{{ '/projects/' | relative_url }}">&larr; All student projects</a>{% if theme %} &middot; {{ theme.title }}{% endif %}</p>
   <h1 class="page-title">{{ page.title }}</h1>
   <p><em>{{ page.tagline }}</em></p>
+  {%- if page.image %}
+  <p><img src="{{ page.image | relative_url }}" alt="{{ page.image_alt }}" style="width:100%;height:auto;border-radius:4px;"></p>
+  {%- endif %}
   <p>
     <strong>Level:</strong> {{ page.levels | join: ", " | replace: "Summer", "Summer research" }}<br>
     {%- if page.level_note %}<strong>Length:</strong> {{ page.level_note }}<br>{% endif %}

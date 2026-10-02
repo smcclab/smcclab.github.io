@@ -6,7 +6,6 @@ authors:
 date: 2026-09-28
 clusters:
   - Computing Foundations
-  - Intelligent Systems
 groups:
   - Human-Centred Computing
   - Sound, Music and Creative Computing Lab
@@ -28,3 +27,9 @@ IMPSY models are trained on a musician's own playing, so choosing what to record
 
 - **Minimum:** three or more models trained on curated datasets, a performance with each, and a reflective analysis linking dataset choices to musical outcomes. Alongside the reflection, report dataset sizes, training curves, and a simple comparison of each model's behaviour (e.g., the timing and range of its generated gestures).
 - **Stretch:** a public performance or composition that uses the differences between models as structural material.
+
+## Background reading
+
+- Martin, C. P. (2024). [Generative AI for Musicians: Small-Data Prototyping to Design Intelligent Musical Instruments](https://generativeaiandhci.github.io/papers/2024/genaichi2024_50.pdf). *GenAICHI workshop, CHI 2024*.
+- Martin, C. P. et al. (2026). [Opening the Design Space: Two Years of Performance with Intelligent Musical Instruments](https://doi.org/10.5281/zenodo.20784072). *NIME 2026*.
+- Vigliensoni, G., Perry, P. and Fiebrink, R. (2022). [A Small-Data Mindset for Generative AI Creative Work](https://vigliensoni.com/portfolio/21-vigliensoni22smalldata/). *GenAICHI workshop, CHI 2022*.

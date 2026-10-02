@@ -18,6 +18,8 @@ tags:
   - feedback-music
   - material-agency
   - IMPSY
+image: /assets/2026/projects/feedback-duet-overhead.jpg
+image_alt: "Overhead view of two performers' hands on controllers, a modular synthesiser and a laptop during an AI feedback duet"
 theme: artistic
 order: 4
 prerequisites: "An established musical practice (performance, improvisation, or electronic music) and COMP4350/COMP8350 or equivalent experience with audio programming or music software."
@@ -28,3 +30,9 @@ Our duet study found that performing with AI feedback instruments involves a spe
 
 - **Minimum:** a documented practice of at least two sessions a week for 12 weeks or more (each with a recording and an interaction log), a public performance, and a reflective analysis of how your skills developed.
 - **Stretch:** compare your experience with our published vocabulary (feedback moments, funnelling, injection) and extend or challenge it.
+
+## Background reading
+
+- Wang, Y. and Martin, C. P. (2026). [回溯: Co-constructing a Dual Feedback Apparatus](https://doi.org/10.5281/zenodo.20782069). *NIME 2026* (music paper on our AI feedback duet and material agency).
+- Martin, C. P. et al. (2026). [Opening the Design Space: Two Years of Performance with Intelligent Musical Instruments](https://doi.org/10.5281/zenodo.20784072). *NIME 2026*.
+- Sanfilippo, D. and Valle, A. (2013). [Feedback Systems: An Analytical Framework](https://doi.org/10.1162/COMJ_a_00176). *Computer Music Journal*.

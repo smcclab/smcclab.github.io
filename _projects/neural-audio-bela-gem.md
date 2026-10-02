@@ -6,7 +6,6 @@ authors:
 date: 2026-09-28
 clusters:
   - Computing Foundations
-  - Intelligent Systems
 groups:
   - Human-Centred Computing
   - Sound, Music and Creative Computing Lab
@@ -28,3 +27,10 @@ Neural audio models such as neural amp models, differentiable DSP, and small aut
 
 - **Summer or one semester:** one model family (e.g., LSTM amp models) with a benchmark harness covering model size, block size, and CPU load.
 - **Two semesters or Master:** more model families, a comparison with other embedded platforms, and a real-time neural audio effect or instrument.
+
+## Background reading
+
+- Martin, C. P., Jensenius, A. R. and Torresen, J. (2018). [Composing an Ensemble Standstill Work for Myo and Bela](https://charlesmartin.au/preprints/2018-ComposingEnsembleStandstillWork.pdf). *NIME 2018* (embedded Bela instruments in performance).
+- Pelinski, T., Diaz, R., Benito Temprano, A. L. and McPherson, A. (2023). [Pipeline for recording datasets and running neural networks on the Bela embedded hardware platform](https://arxiv.org/abs/2306.11389). *NIME 2023*.
+- Wright, A., Damskägg, E.-P., Juvela, L. and Välimäki, V. (2020). [Real-Time Guitar Amplifier Emulation with Deep Learning](https://doi.org/10.3390/app10030766). *Applied Sciences*.
+- Chowdhury, J. (2021). [RTNeural: Fast Neural Inferencing for Real-Time Systems](https://arxiv.org/abs/2106.03037). *arXiv*.

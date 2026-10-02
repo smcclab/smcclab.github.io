@@ -6,7 +6,6 @@ authors:
 date: 2026-09-28
 clusters:
   - Computing Foundations
-  - Data Science & Analytics
 groups:
   - Human-Centred Computing
   - Sound, Music and Creative Computing Lab
@@ -19,6 +18,8 @@ tags:
   - data-analysis
   - agency
   - IMPSY
+image: /assets/2026/projects/duet-patch-latent-viz.jpg
+image_alt: "A Pure Data patch with a latent-space visualisation and a video feed of two performers on stage"
 theme: theory
 order: 8
 prerequisites: "Strong mathematics or statistics (e.g., probability and information theory) and Python."
@@ -28,3 +29,9 @@ When a musician plays with an intelligent instrument, who is leading? Our qualit
 
 - **One semester:** a validated analysis toolkit, tested on synthetic call-and-response data and applied to one set of performance logs.
 - **Two semesters or Master:** a comparison between quantitative measures and qualitative accounts of the same performances (your own reflections, or interviews with other performers, which need ethics approval), and a discussion of what each approach can and can't capture.
+
+## Background reading
+
+- Wang, Y. and Martin, C. P. (2026). [回溯: Co-constructing a Dual Feedback Apparatus](https://doi.org/10.5281/zenodo.20782069). *NIME 2026* (music paper on our AI feedback duet and material agency).
+- Martin, C. P., Gardner, H. and Swift, B. (2015). [Tracking Ensemble Performance on Touch-Screens with Gesture Classification and Transition Matrices](https://charlesmartin.au/preprints/2015-NIME-TrackingEnsemblePerformance.pdf). *NIME 2015* (quantitative analysis of performance logs).
+- Schreiber, T. (2000). [Measuring Information Transfer](https://doi.org/10.1103/PhysRevLett.85.461). *Physical Review Letters* (transfer entropy).

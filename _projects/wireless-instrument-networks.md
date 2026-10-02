@@ -6,7 +6,6 @@ authors:
 date: 2026-09-28
 clusters:
   - Computing Foundations
-  - Secure Software Systems
 groups:
   - Human-Centred Computing
   - Sound, Music and Creative Computing Lab
@@ -28,3 +27,9 @@ Our earlier work measured the latency and reliability of short-range radios (ESP
 
 - **One semester:** a measurement testbed and results for 10+ devices.
 - **Two semesters or Master:** optionally build a prototype wireless instrument and study how latency and packet loss affect performers in a group.
+
+## Background reading
+
+- Martin, C. P. (2023). [Composing Interface Connections for a Networked Touchscreen Ensemble](https://doi.org/10.1109/IEEECONF59510.2023.10335226). *ISIEA 2023*.
+- Proctor, R. and Martin, C. P. (2020). [A Laptop Ensemble Performance System using Recurrent Neural Networks](https://charlesmartin.au/preprints/2020-NIME-LaptopEnsembleRNN.pdf). *NIME 2020*.
+- Turchet, L., Fischione, C., Essl, G., Keller, D. and Barthet, M. (2018). [Internet of Musical Things: Vision and Challenges](https://doi.org/10.1109/ACCESS.2018.2872625). *IEEE Access*.

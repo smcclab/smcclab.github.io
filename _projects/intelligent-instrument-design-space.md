@@ -28,3 +28,9 @@ Intelligent musical instruments are now appearing regularly at conferences like 
 
 - **Summer or one semester:** a coded dataset of published intelligent instruments from a bounded corpus (e.g., NIME and ICCC papers from 2018 onwards) and a first taxonomy.
 - **Two semesters or Master:** validate the taxonomy by checking agreement with other lab coders (interviews with instrument designers would need ethics approval), and use it to identify and prototype one design from an unexplored region.
+
+## Background reading
+
+- Martin, C. P. et al. (2026). [Opening the Design Space: Two Years of Performance with Intelligent Musical Instruments](https://doi.org/10.5281/zenodo.20784072). *NIME 2026*.
+- Parkinson, A. and Dunning, G. (2025). [Improvising with Machines: A taxonomy of musical interactions](https://doi.org/10.1017/S1355771824000268). *Organised Sound*.
+- Tatar, K. and Pasquier, P. (2019). [Musical agents: A typology and state of the art towards Musical Metacreation](https://doi.org/10.1080/09298215.2018.1511736). *Journal of New Music Research*.

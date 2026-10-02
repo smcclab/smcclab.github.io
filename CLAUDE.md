@@ -13,7 +13,7 @@ bundle exec jekyll serve    # local development server
 bundle exec jekyll build    # production build
 ```
 
-Requires Ruby 3.2.2 (see `.ruby-version`). Deployment is automated via GitHub Actions on push to `main`.
+Requires Ruby 3.4.10 (see `.ruby-version`; the Gemfile adds `csv`, `base64` and `bigdecimal`, which Ruby 3.4 no longer bundles). Deployment is automated via GitHub Actions on push to `main`.
 
 ## Architecture
 
@@ -38,7 +38,7 @@ tags: [tag1, tag2]
 
 ### Student projects
 
-Projects are a Jekyll collection in `_projects/` (one file each, rendered at `/projects/<name>/` with `_layouts/project.html`). Front matter mirrors the ANU School of Computing website's `_projects` format (`title`, `tagline`, `authors`, `date`, `clusters`, `groups`, `levels`, `tags`) plus local keys: `theme` (a key in `_data/project_themes.yml`, which holds section titles and intros), `order`, `prerequisites`, and optional `level_note`. `projects.md` is the grouped index.
+Projects are a Jekyll collection in `_projects/` (one file each, rendered at `/projects/<name>/` with `_layouts/project.html`). Front matter mirrors the ANU School of Computing website's `_projects` format (`title`, `tagline`, `authors`, `date`, `clusters`, `groups`, `levels`, `tags`) plus local keys: `theme` (a key in `_data/project_themes.yml`, which holds section titles and intros), `order`, `prerequisites`, optional `level_note`, and optional `image`/`image_alt` (a photo under `assets/2026/projects/`, shown on the project page and exported as an absolute smcclab.au URL). Each project ends with a `## Background reading` list of two to four papers: at least one lab paper and one external paper. `projects.md` is the grouped index.
 
 To advertise a project on comp.anu.edu.au, export it into a local clone of `gitlab.anu.edu.au/jekyll-anu/computing-website`:
 
@@ -46,7 +46,13 @@ To advertise a project on comp.anu.edu.au, export it into a local clone of `gitl
 python3 scripts/export_to_computing.py ../computing-website <name> [<name>...]
 ```
 
-This writes `_projects/smcclab-<name>.md` there with the computing site's "How to Apply" section and links back to smcclab.au.
+This writes `_projects/smcclab-<name>.md` there, prepending the theme intro, adding the computing site's "How to Apply" section and linking back to smcclab.au. It warns if a cluster or group name is not a title in that repo's `_research/clusters` or `_research/groups`.
+
+Computing-website vocabulary (must match exactly):
+
+- `clusters`: always `Computing Foundations` only. Clusters are School of Computing subunits and Charles is in Foundations, so every lab project is a Foundations project regardless of topic.
+- `groups`: `Human-Centred Computing` and `Sound, Music and Creative Computing Lab` (the "Lab" is part of the title there).
+- `levels`: the computing site accepts only Bachelors, Honours, Masters, MPhil, PhD, Internship. `Summer` is local to smcclab.au; the exporter drops it from `levels` and adds a "Summer research" line to the page instead.
 
 ### Includes
 

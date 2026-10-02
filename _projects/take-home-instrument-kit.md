@@ -18,6 +18,8 @@ tags:
   - physical-computing
   - raspberry-pi
   - IMPSY
+image: /assets/2026/projects/intelligent-s1-pi.jpg
+image_alt: "A hand adjusting a Roland S-1 synthesiser driven by a small Raspberry Pi in a red case, powered by a power bank"
 theme: hardware
 order: 13
 prerequisites: "Basic electronics and some experience with Raspberry Pi or Arduino. Interest in physical design and 3D printing or laser cutting."
@@ -29,3 +31,9 @@ As a summer project, this runs from December to February so the kits are ready f
 
 - **Summer or one semester:** an open hardware design with a bill of materials, a batch of five or more working kits, and setup testing.
 - **Two semesters or Master:** add design iterations based on how musicians use the kits at home.
+
+## Background reading
+
+- Martin, C. P., Glette, K., Nygaard, T. F. and Torresen, J. (2020). [Understanding Musical Predictions with an Embodied Interface for Musical Machine Learning](https://doi.org/10.3389/frai.2020.00006). *Frontiers in AI* (user study of a physical IMPSY instrument).
+- Martin, C. P. and Torresen, J. (2019). [A Physical Intelligent Instrument using Recurrent Neural Networks](https://charlesmartin.au/preprints/2019-NIME-PhysicalIntelligentInstrument.pdf). *NIME 2019*.
+- Morreale, F. and McPherson, A. (2017). [Design for Longevity: Ongoing Use of Instruments from NIME 2010-14](https://doi.org/10.5281/zenodo.1176218). *NIME 2017*.

@@ -27,3 +27,10 @@ Researchers describe AI music systems using many competing ideas of agency: mixe
 
 - **Summer or one semester:** a structured review of a bounded corpus (e.g., NIME papers from 2015 onwards that discuss agency), with a map of agency concepts and where they're used.
 - **Two semesters or Master:** a full scoping review protocol, and a proposed conceptual framework tested by applying it to existing intelligent instruments.
+
+## Background reading
+
+- Wang, Y. and Martin, C. P. (2026). [回溯: Co-constructing a Dual Feedback Apparatus](https://doi.org/10.5281/zenodo.20782069). *NIME 2026* (music paper on our AI feedback duet and material agency).
+- Martin, C. P. et al. (2026). [Opening the Design Space: Two Years of Performance with Intelligent Musical Instruments](https://doi.org/10.5281/zenodo.20784072). *NIME 2026*.
+- Tatar, K. and Pasquier, P. (2019). [Musical agents: A typology and state of the art towards Musical Metacreation](https://doi.org/10.1080/09298215.2018.1511736). *Journal of New Music Research*.
+- Parkinson, A. and Dunning, G. (2025). [Improvising with Machines: A taxonomy of musical interactions](https://doi.org/10.1017/S1355771824000268). *Organised Sound*.

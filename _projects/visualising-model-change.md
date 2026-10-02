@@ -30,3 +30,9 @@ In this project you'll design and build visualisations that compare datasets and
 
 - **Summer or one semester:** comparison views for dataset growth and model behaviour, built and tested on existing multi-session performance logs.
 - **Semester 1 Honours/Master (alongside the multi-week study):** the same, plus formative feedback sessions with musicians from the study during their final interviews.
+
+## Background reading
+
+- Zhu, H. K. and Martin, C. P. (2026). [A Web Interface for Real-Time Interaction with Machine Learning in Musical Performance](https://doi.org/10.5281/zenodo.20784312). *NIME 2026* (the impsy-web study).
+- Martin, C. P., Glette, K., Nygaard, T. F. and Torresen, J. (2020). [Understanding Musical Predictions with an Embodied Interface for Musical Machine Learning](https://doi.org/10.3389/frai.2020.00006). *Frontiers in AI* (user study of a physical IMPSY instrument).
+- Amershi, S., Cakmak, M., Knox, W. B. and Kulesza, T. (2014). [Power to the People: The Role of Humans in Interactive Machine Learning](https://doi.org/10.1609/aimag.v35i4.2513). *AI Magazine*.

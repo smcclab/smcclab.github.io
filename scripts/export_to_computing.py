@@ -22,6 +22,30 @@ SITE_URL = "https://smcclab.au"
 # Front matter keys the computing website understands; everything else is local to smcclab.au.
 COMPUTING_KEYS = ["title", "tagline", "authors", "date", "clusters", "groups", "levels", "tags"]
 
+# Levels offered by the computing website's CMS (admin/config.yml, "student-projects" collection).
+COMPUTING_LEVELS = ["Bachelors", "Honours", "Masters", "MPhil", "PhD", "Internship"]
+
+
+def collection_titles(dest, folder):
+    """Titles of a computing-website collection (e.g. _research/clusters), used to validate front matter."""
+    titles = set()
+    for path in (dest / folder).glob("*.md"):
+        fm, _ = split_front_matter(path.read_text())
+        title = yaml_scalar(front_matter_blocks(fm), "title")
+        if title:
+            titles.add(title)
+    return titles
+
+
+def theme_intro(key):
+    """Intro paragraph(s) for a theme in _data/project_themes.yml, so the exported page stands alone."""
+    text = (SITE / "_data" / "project_themes.yml").read_text()
+    for block in text.split("- key: ")[1:]:
+        if block.split("\n", 1)[0].strip() == key and "intro: |" in block:
+            intro = block.split("intro: |", 1)[1]
+            return "\n".join(line[4:] for line in intro.splitlines()).strip()
+    return ""
+
 
 def split_front_matter(text):
     _, fm, body = text.split("---", 2)
@@ -41,11 +65,17 @@ def front_matter_blocks(fm):
     return blocks
 
 
-def scalar(blocks, key):
+def yaml_scalar(blocks, key):
     if key not in blocks:
         return None
     value = blocks[key][0].split(":", 1)[1].strip()
+    if value in ("|", "|-", ">", ">-"):  # block scalar: join the indented continuation lines
+        return " ".join(line.strip() for line in blocks[key][1:]).strip()
     return value.strip('"')
+
+
+def yaml_list(blocks, key):
+    return [line.split("-", 1)[1].strip().strip('"') for line in blocks.get(key, [])[1:] if line.strip().startswith("-")]
 
 
 def export(name, dest):
@@ -58,13 +88,35 @@ def export(name, dest):
     # Root-relative links (e.g. /join/) point at smcclab.au from the computing website.
     body = re.sub(r"\]\(/", f"]({SITE_URL}/", body)
 
+    # Check the front matter against the computing website's own vocabulary.
+    for key, folder in (("clusters", "_research/clusters"), ("groups", "_research/groups")):
+        for value in set(yaml_list(blocks, key)) - collection_titles(dest, folder):
+            print(f"warning: {name}: {key} value {value!r} is not a title in {dest / folder}", file=sys.stderr)
+
+    # "Summer" is a local level (summer research scholarships); the computing site has no such level.
+    levels = yaml_list(blocks, "levels")
+    summer = "Summer" in levels
+    levels = [lv for lv in levels if lv in COMPUTING_LEVELS]
+    for lv in set(yaml_list(blocks, "levels")) - set(levels) - {"Summer"}:
+        print(f"warning: {name}: dropped level {lv!r} (not in {COMPUTING_LEVELS})", file=sys.stderr)
+    blocks["levels"] = ["levels:"] + [f"  - {lv}" for lv in levels]
+
     details = []
-    if scalar(blocks, "level_note"):
-        details.append(f"**Length:** {scalar(blocks, 'level_note')}")
-    if scalar(blocks, "prerequisites"):
-        details.append(f"**Prerequisites:** {scalar(blocks, 'prerequisites')}")
+    if summer:
+        details.append("**Summer research:** This project is also available as a summer research scholarship project.")
+    if yaml_scalar(blocks, "level_note"):
+        details.append(f"**Length:** {yaml_scalar(blocks, 'level_note')}")
+    if yaml_scalar(blocks, "prerequisites"):
+        details.append(f"**Prerequisites:** {yaml_scalar(blocks, 'prerequisites')}")
 
     details_md = "  \n".join(details)
+    intro = theme_intro(yaml_scalar(blocks, "theme") or "")
+    if intro:
+        intro = re.sub(r"\]\(/", f"]({SITE_URL}/", intro)
+        body = f"{intro}\n\n## This project\n\n{body}"
+    if yaml_scalar(blocks, "image"):  # images are served from smcclab.au, not copied into the computing site
+        alt = yaml_scalar(blocks, "image_alt") or yaml_scalar(blocks, "title")
+        body = f"![{alt}]({SITE_URL}{yaml_scalar(blocks, 'image')})\n\n{body}"
     out_fm = "\n".join(line for key in COMPUTING_KEYS if key in blocks for line in blocks[key])
     page_url = f"{SITE_URL}/projects/{name}/"
     out = f"""---
