@@ -19,6 +19,8 @@ tags:
   - ESP32
   - networked-music
   - hardware
+image: /assets/2026/projects/networked-touchscreen-ensemble.jpg
+image_alt: "Four musicians in a studio playing networked touchscreen instruments, with cables and devices spread across the floor"
 theme: hardware
 order: 14
 prerequisites: "Embedded programming (C/C++ on ESP32 or similar) and networking basics."

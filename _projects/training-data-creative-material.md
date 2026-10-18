@@ -17,6 +17,8 @@ tags:
   - machine-learning
   - small-data
   - IMPSY
+image: /assets/2026/projects/soundout-2026-performance.jpg
+image_alt: "A trio performing with intelligent instruments, piano, drums and synthesiser at SoundOut Festival 2026"
 theme: artistic
 order: 5
 prerequisites: "An established musical practice and Python experience. COMP4350/COMP8350 or COMP1720/COMP6720 is a good background."
