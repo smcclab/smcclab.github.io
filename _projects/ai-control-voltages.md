@@ -32,6 +32,6 @@ Bela Gem Multi's DC-coupled outputs can send control voltages straight to a Euro
 
 ## Background reading
 
-- Martin, C. P. et al. (2026). [Opening the Design Space: Two Years of Performance with Intelligent Musical Instruments](https://doi.org/10.5281/zenodo.20784072). *NIME 2026*.
+- Martin, C. P. (2026). [Opening the Design Space: Two Years of Performance with Intelligent Musical Instruments](https://doi.org/10.5281/zenodo.20784072). *NIME 2026*.
 - Martin, C. P. (2024). [Generative AI for Musicians: Small-Data Prototyping to Design Intelligent Musical Instruments](https://generativeaiandhci.github.io/papers/2024/genaichi2024_50.pdf). *GenAICHI workshop, CHI 2024*.
 - McPherson, A. and Zappi, V. (2015). [An environment for submillisecond-latency audio and sensor processing on BeagleBone Black](https://www.aes.org/e-lib/browse.cfm?elib=17755). *AES Convention 138* (the original Bela paper).

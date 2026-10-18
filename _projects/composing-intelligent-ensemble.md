@@ -32,5 +32,5 @@ Most intelligent instruments are designed for a solo performer. What happens whe
 ## Background reading
 
 - Proctor, R. and Martin, C. P. (2020). [A Laptop Ensemble Performance System using Recurrent Neural Networks](https://charlesmartin.au/preprints/2020-NIME-LaptopEnsembleRNN.pdf). *NIME 2020*.
-- Martin, C. P. et al. (2026). [Opening the Design Space: Two Years of Performance with Intelligent Musical Instruments](https://doi.org/10.5281/zenodo.20784072). *NIME 2026*.
+- Martin, C. P. (2026). [Opening the Design Space: Two Years of Performance with Intelligent Musical Instruments](https://doi.org/10.5281/zenodo.20784072). *NIME 2026*.
 - Lewis, G. E. (2000). [Too Many Notes: Computers, Complexity and Culture in *Voyager*](https://doi.org/10.1162/096112100570585). *Leonardo Music Journal*.

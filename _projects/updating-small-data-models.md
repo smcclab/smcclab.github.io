@@ -25,7 +25,7 @@ order: 1
 prerequisites: "Python and some machine learning (e.g., COMP3670 or COMP4670). Experience with Keras/TensorFlow is helpful."
 ---
 
-IMPSY models are trained on tiny datasets: a few hours of one person's playing. In our recent experiments, a model trained on 7.4 hours of controller data from seven performances started to overfit after about 26 epochs. Musicians collect more data every time they play, so what's the best way to update a model? Retrain from scratch? Fine-tune the old model? How much new data does it take to change how the model behaves?
+IMPSY models are trained on tiny datasets: a few hours of one person's playing. In our recent experiments, a model trained on about seven hours of controller data from several performances started to overfit after a few dozen epochs. Musicians collect more data every time they play, so what's the best way to update a model? Retrain from scratch? Fine-tune the old model? How much new data does it take to change how the model behaves?
 
 In this project you'll treat existing performance logs as a sequence of practice sessions, then compare strategies for updating an MDRNN after each one. A key part of the project is defining how to tell when a model has *actually* changed its musical behaviour, not just its validation loss (for example, by comparing the timing and values of gestures sampled from each model).
 

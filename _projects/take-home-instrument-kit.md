@@ -34,6 +34,6 @@ As a summer project, this runs over six weeks from December to January so the ki
 
 ## Background reading
 
-- Martin, C. P., Glette, K., Nygaard, T. F. and Torresen, J. (2020). [Understanding Musical Predictions with an Embodied Interface for Musical Machine Learning](https://doi.org/10.3389/frai.2020.00006). *Frontiers in AI* (user study of a physical IMPSY instrument).
-- Martin, C. P. and Torresen, J. (2019). [A Physical Intelligent Instrument using Recurrent Neural Networks](https://charlesmartin.au/preprints/2019-NIME-PhysicalIntelligentInstrument.pdf). *NIME 2019*.
+- Martin, C. P., Glette, K., Nygaard, T. F. and Torresen, J. (2020). [Understanding Musical Predictions with an Embodied Interface for Musical Machine Learning](https://doi.org/10.3389/frai.2020.00006). *Frontiers in AI* (user study of EMPI, a physical predictive instrument and precursor to IMPSY).
+- Næss, T. R. and Martin, C. P. (2019). [A Physical Intelligent Instrument using Recurrent Neural Networks](https://charlesmartin.au/preprints/2019-NIME-PhysicalIntelligentInstrument.pdf). *NIME 2019*.
 - Morreale, F. and McPherson, A. (2017). [Design for Longevity: Ongoing Use of Instruments from NIME 2010-14](https://doi.org/10.5281/zenodo.1176218). *NIME 2017*.

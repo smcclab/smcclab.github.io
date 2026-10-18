@@ -28,10 +28,10 @@ prerequisites: "An established musical practice (performance, improvisation, or 
 Our duet study found that performing with AI feedback instruments involves a specific skill: *navigating agency*, or knowing when to hold back, steer, or inject new material to keep the instrument in a productive state. We learnt this over two years of practice, but we don't know how a new performer develops this skill. In this project you'll adopt one of the lab's intelligent instruments, or configure your own IMPSY instrument where the model feeds back on its own output (like our Agentier instrument), establish a regular practice over the course of your project, and document how your playing and your understanding of the instrument change, using structured reflection after each session and recordings of your practice.
 
 - **Minimum:** a documented practice of at least two sessions a week for 12 weeks or more (each with a recording and an interaction log), a public performance, and a reflective analysis of how your skills developed.
-- **Stretch:** compare your experience with our published vocabulary (feedback moments, funnelling, injection) and extend or challenge it.
+- **Stretch:** compare your experience with our vocabulary (feedback moments, funnelling, injection) and extend or challenge it.
 
 ## Background reading
 
 - Wang, Y. and Martin, C. P. (2026). [回溯: Co-constructing a Dual Feedback Apparatus](https://doi.org/10.5281/zenodo.20782069). *NIME 2026* (music paper on our AI feedback duet and material agency).
-- Martin, C. P. et al. (2026). [Opening the Design Space: Two Years of Performance with Intelligent Musical Instruments](https://doi.org/10.5281/zenodo.20784072). *NIME 2026*.
+- Martin, C. P. (2026). [Opening the Design Space: Two Years of Performance with Intelligent Musical Instruments](https://doi.org/10.5281/zenodo.20784072). *NIME 2026*.
 - Sanfilippo, D. and Valle, A. (2013). [Feedback Systems: An Analytical Framework](https://doi.org/10.1162/COMJ_a_00176). *Computer Music Journal*.
