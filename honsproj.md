@@ -23,7 +23,7 @@ The makeup of a lab changes rapidly as folks start and finish projects and the w
 
 As a student you can expect the following:
 
-- individual meetings when needed (but not every week)
+- individual meetings when needed (not always every week)
 - lab meetings to show what you have done and hear about others' work
 - access to important information and materials (but not necessarily huge GPUs)
 - feedback on your project plan and implementation
@@ -56,7 +56,7 @@ Purpose: (1) to gain an understanding of how everybody in the lab is going with 
 
 ### On-demand individual meeting (30 minutes)
 
-This is an **individual** meeting, either online or in-person. Book a time through Microsoft Bookings. These will have a specific goal e.g.:
+This is an **individual** meeting, either online or in-person. Book a time through Microsoft Bookings, or with Charles on Outlook. These will have a specific goal e.g.:
 
 - talk about possible solutions to problem X
 - fix technical issue Y
@@ -121,5 +121,5 @@ If you are studying humans (surveys, questionnaires, user studies) you **need** 
 - Communication and critical analysis of your project is the most important aspect of grading.
 - Expect the "work" to take a long time — prioritise getting this started early.
 - Start the write-up as soon as you start your project.
-- Meetings are **precious** — most issues can be handled in team meetings. Individual meetings only for critical issues.
+- Meetings are **precious** — most issues can be handled in team meetings. Individual meetings for critical issues and mentoring.
 - Studies with humans require ethics approval — no exceptions.

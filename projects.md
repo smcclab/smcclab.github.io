@@ -16,7 +16,7 @@ If one of these interests you, read the [project expectations page](/honsproj/) 
 - **Full projects** are Honours or Master research projects and run over two semesters.
 - Projects marked *Short* list what the short version delivers and what the full project adds. Projects without a short version need a full two semesters.
 - Lab hardware (Raspberry Pis, Bela boards, MIDI controllers) is provided for hardware projects.
-- You'll join the weekly lab status meeting and book individual meetings when you need them (see [expectations](/honsproj/)).
+- Depending on your type of project, you'll get a weekly status meeting, regular individual meetings and the opportunity to get help when you need it (see [expectations](/honsproj/)).
 - Your report is assessed on **your own work**. Where projects connect, each one has a fallback plan that doesn't depend on anyone else. Publications that combine results from several projects are a separate, optional output, and everyone who contributed is an author.
 
 {% assign projects = site.projects | sort: "order" %}
