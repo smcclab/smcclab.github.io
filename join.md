@@ -48,6 +48,8 @@ If you are a current SMCClab student, you may also want to read:
 - [Honours and project student expectations](/honsproj/)
 - [PhD milestone expectations](/milestones/)
 
+SMCClab is a verified [SAFE Lab](/about/#a-safe-lab), and some of these procedures are included in the [SAFE Labs handbook](https://safelabs.info/handbook/).
+
 ## Mailing List
 
 If you just want news about our lab, feel free to sign up for our mailing list:

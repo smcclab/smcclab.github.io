@@ -22,3 +22,16 @@ Our work combines three cutting edge fields of research:
 - **Expressive Musical Sensing**: Understanding how music is played and what performers are doing. This involves hardware prototyping, creating new hyper-instruments, and applying cutting-edge sensors.
 - **Musical Machine Learning**: Creating and training predictive models of musical notes, sounds, and gestures. This includes applying techniques symbolic music generation, to understand scores and MIDI data,  and music information retrieval to "hear" music in audio data.
 - **Musical Human-Computer Interaction**: Finding new ways for predictive models to work with musicians, and to analyse the musical experience that emerges.
+
+## A SAFE Lab
+
+<a href="https://safelabs.info/the-labs/"><img src="{% link assets/2026/safe-labs-logo.svg %}" alt="SAFE Labs logo" style="float: right; width: 120px; max-width: 30%; margin: 0 0 1em 1em;"></a>
+
+SMCClab is a verified [SAFE Lab](https://safelabs.info/the-labs/) (Starting Aware, Fair and Equitable Labs). SAFE Labs is an initiative that helps research groups build fairer, better-organised lab environments around a shared [handbook](https://safelabs.info/handbook/) of commitments on working hours, authorship, meetings, feedback, and supporting people who join or leave a lab. Some of our lab procedures have been included in the SAFE Labs handbook.
+
+Our publicly documented lab procedures are:
+
+- [Honours, Master, and project student expectations](/honsproj/)
+- [PhD milestone expectations](/milestones/)
+
+<div style="clear: both;"></div>
