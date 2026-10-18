@@ -52,9 +52,9 @@ This is a **group** meeting, online, once per week. In each meeting you will be 
 2. What obstacles have you encountered?
 3. What is your next step?
 
-Purpose: (1) to gain an understanding of how everybody in the lab is going with their project, and (2) to determine if anybody requires individual meetings. Status meetings will be _only 30 minutes_ (approx 3 minutes each).
+Purpose: (1) to gain an understanding of how everybody in the lab is going with their project, and (2) to determine if anybody requires individual meetings. Status meetings will be _only 30-45 minutes_ (approx 5-10 minutes each).
 
-### On-demand individual meeting (&le; 30 minutes)
+### On-demand individual meeting (30 minutes)
 
 This is an **individual** meeting, either online or in-person. Book a time through Microsoft Bookings. These will have a specific goal e.g.:
 
