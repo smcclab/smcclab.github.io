@@ -25,7 +25,7 @@ order: 2
 prerequisites: "HCI experience (e.g., COMP3900/COMP6390) and interest in qualitative research methods. Musical experience is essential."
 ---
 
-Previous lab studies of our intelligent instruments (EMPI and impsy-web) lasted under an hour, which wasn't long enough for musicians to build up a useful dataset. This project runs a longitudinal study: a small group of musicians take an IMPSY instrument home for several weeks, play it, collect data, retrain their model, and reflect on the experience.
+Previous lab studies of our intelligent instruments (EMPI and impsy-web) lasted under an hour, which wasn't long enough for musicians to build up a useful dataset. This project will be a longitudinal study: a small group of musicians take an IMPSY instrument home for several weeks, play it, collect data, retrain their model, and reflect on the experience.
 
 You'll recruit participants, run onboarding sessions, collect diaries, interaction logs, and interviews, and measure creative experience with the Creativity Support Index at the start and end of the study. Human ethics approval for this study already exists, and you'll be added to the protocol at the start of your project so you can begin recruiting early.
 

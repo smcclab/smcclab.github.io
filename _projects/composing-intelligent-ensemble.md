@@ -27,9 +27,11 @@ prerequisites: "Composition or ensemble performance experience, and some music t
 Most intelligent instruments are designed for a solo performer. What happens when several performers, each with their own AI instrument, play together? How do you write a piece for them? In this project you'll compose and rehearse a work for a small ensemble of intelligent instruments (e.g., IMPSY instruments on Raspberry Pis), with a score, structure, or set of rules that deals with the AI instruments' unpredictability. You'll document the rehearsal process and reflect on how composition changes when some of the ensemble's decisions are made by AI.
 
 - **Minimum:** a composed work for three or more IMPSY instruments, documented rehearsals, and a performance. The piece should work as a solo version where you play several instruments yourself, so it doesn't depend on other performers being available; performing with lab members is a bonus.
-- **Stretch:** a second version of the work informed by what you learnt, and reflections from the other performers (this needs ethics approval).
+- **Stretch:** a second version of the work informed by what you learned, and reflections from the other performers (this needs ethics approval).
 
 ## Background reading
+
+<!-- TODO: put in the Martin, Schuetze, et al. paper on composing for networked ensemble --> 
 
 - Proctor, R. and Martin, C. P. (2020). [A Laptop Ensemble Performance System using Recurrent Neural Networks](https://charlesmartin.au/preprints/2020-NIME-LaptopEnsembleRNN.pdf). *NIME 2020*.
 - Martin, C. P. (2026). [Opening the Design Space: Two Years of Performance with Intelligent Musical Instruments](https://doi.org/10.5281/zenodo.20784072). *NIME 2026*.

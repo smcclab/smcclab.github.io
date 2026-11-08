@@ -24,12 +24,12 @@ order: 9
 prerequisites: "Interest in musical instruments and design, and the ability to read research papers critically. COMP4350/COMP8350 or COMP3900/COMP6390 is a good background."
 ---
 
-A CHI 2026 paper by Kim et al. analysed 184 live music agents and organised them into a design space of 31 dimensions, covering usage context, interaction, technology, and ecosystem. Their coded systems are public as a "living" dataset that others can extend. It's the most thorough map of the field so far, but most of the systems it covers are software agents built by researchers. Our instruments are different: they're trained on small datasets that the performer records, they often run on embedded hardware, and the model can change over weeks of use. It's not clear how well the design space describes them.
+A CHI 2026 paper by Kim et al. analysed 184 live music agents and organised them into a design space of 31 dimensions, covering usage context, interaction, technology, and ecosystem. Their coded systems are public as a "living" dataset that others can extend. It's the most thorough map of the field so far, but most of the systems it covers are software agents built by researchers. Our instruments are different: they're trained on small datasets that the performer records, they often run on embedded hardware, and the model could change over weeks of use. It's not clear how well the design space describes them.
 
 In this project you'll test the design space against the lab's instruments (e.g., IMPSY instruments and our AI feedback duet) and similar instruments from NIME, report what it can't describe well, and propose an extension. Likely gaps include who trains the model and on what data, whether it changes over time, and portability.
 
 - **Short project:** a coded set of 20 or more performer-trained instruments using the existing design space, and an analysis of where it fits and where it doesn't.
-- **Full project:** a proposed extension to the design space, checked for agreement with other lab coders, with your entries contributed back to the living dataset. You'll then use the extended design space to identify and prototype one instrument from an unexplored region.
+- **Full project:** a proposed extension to the design space, tested against our instruments, with your entries contributed back to the dataset. You'll then use the extended design space to identify and prototype one instrument from an unexplored region.
 
 ## Background reading
 
