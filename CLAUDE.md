@@ -21,7 +21,7 @@ Requires Ruby 3.4.10 (see `.ruby-version`; the Gemfile adds `csv`, `base64` and 
 - **Layouts:** `default` (head, nav, footer), `page` (set `hide_title: true` to drop the h1, `wide: true` for a 60rem column), `post`, `posts` (post list), `archive` (`type: years` or `type: tags`), `project`.
 - **Plugins:** `jekyll-feed`, `jekyll-seo-tag`, `jekyll-sitemap`
 - **Navigation:** Defined in `_data/navigation.yml` (keep it to one row; secondary pages such as Alumni, Archive and Tags are linked from the footer)
-- **Homepage:** `index.md` is mostly HTML. The hero photo is picked at random on each visit from entries in `_data/performances.yml` that have `image` and `image_alt`; the same entries feed the "On stage" grid and the performances page via `_includes/photo-grid.html`. Research areas are a `.cards` grid.
+- **Homepage:** `index.md` is mostly HTML. The hero photo is picked at random on each visit from entries in `_data/performances.yml` that have an `images` list; the same entries feed the "On stage" grid and the performances page via `_includes/photo-grid.html`. Research areas are a `.cards` grid.
 
 ### Content structure
 
@@ -64,7 +64,7 @@ Computing-website vocabulary (must match exactly):
 
 ### Assets
 
-Images go in `assets/` organized by year (e.g. `assets/2026/`). Reference with Liquid: `{% link assets/2026/image.jpg %}`. To put a performance photo on the homepage, add `image` and `image_alt` to its entry in `_data/performances.yml`.
+Images go in `assets/` organized by year (e.g. `assets/2026/`). Reference with Liquid: `{% link assets/2026/image.jpg %}`. To put a performance photo on the homepage, add it to the `images` list of its entry in `_data/performances.yml`.
 
 ### Styling notes
 

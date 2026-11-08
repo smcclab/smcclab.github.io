@@ -1,11 +1,16 @@
 {%- comment -%}
-Grid of performance photos from _data/performances.yml entries that have an image.
+Grid of performance photos from _data/performances.yml entries that have an images list.
 Usage: {% include photo-grid.html limit=6 %}  (limit optional; newest first)
 {%- endcomment -%}
-{%- assign shots = site.data.performances | where_exp: "p", "p.image" -%}
-{%- if include.limit %}{% assign shots = shots | slice: 0, include.limit %}{% endif -%}
+{%- assign shots = site.data.performances | where_exp: "p", "p.images" -%}
+{%- assign n = 0 -%}
 <ul class="photo-grid">
-  {%- for p in shots %}
-  <li><a href="{{ p.url | relative_url }}"><img src="{{ p.image | relative_url }}" alt="{{ p.image_alt }}" loading="lazy"></a></li>
+  {%- for p in shots -%}
+    {%- for im in p.images -%}
+      {%- unless include.limit and n >= include.limit %}
+  <li><a href="{{ p.url | relative_url }}"><img src="{{ im.src | relative_url }}" alt="{{ im.alt }}" loading="lazy"></a></li>
+      {%- assign n = n | plus: 1 -%}
+      {%- endunless -%}
+    {%- endfor -%}
   {%- endfor %}
 </ul>

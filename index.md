@@ -16,16 +16,18 @@ tags: [SMCClab, ANU, sound, music, creative-computing, intelligent-instruments, 
   </p>
 </section>
 
-{%- assign shots = site.data.performances | where_exp: "p", "p.image" -%}
-{%- assign first = shots | first %}
+{%- assign shots = site.data.performances | where_exp: "p", "p.images" -%}
+{%- assign first = shots | first -%}
+{%- assign first_im = first.images | first %}
 <figure class="hero-photo" id="hero-photo">
-  <a href="{{ first.url | relative_url }}"><img src="{{ first.image | relative_url }}" alt="{{ first.image_alt }}"></a>
+  <a href="{{ first.url | relative_url }}"><img src="{{ first_im.src | relative_url }}" alt="{{ first_im.alt }}"></a>
   <figcaption><a href="{{ first.url | relative_url }}">{{ first.title }}</a> &middot; {{ first.venue }}, {{ first.year }}</figcaption>
 </figure>
 <script type="application/json" id="hero-photos">[
-{%- for p in shots %}
-  {"src": {{ p.image | relative_url | jsonify }}, "alt": {{ p.image_alt | jsonify }}, "url": {{ p.url | relative_url | jsonify }}, "caption": {{ p.title | append: " · " | append: p.venue | append: ", " | append: p.year | jsonify }}}{% unless forloop.last %},{% endunless %}
-{%- endfor %}
+{%- for p in shots -%}{%- for im in p.images %}
+  {"src": {{ im.src | relative_url | jsonify }}, "alt": {{ im.alt | jsonify }}, "url": {{ p.url | relative_url | jsonify }}, "caption": {{ p.title | append: " · " | append: p.venue | append: ", " | append: p.year | jsonify }}},
+{%- endfor -%}{%- endfor %}
+  null
 ]</script>
 <script>
 // Show a different performance photo on each visit. Without JS, the newest one is shown.
@@ -33,7 +35,7 @@ tags: [SMCClab, ANU, sound, music, creative-computing, intelligent-instruments, 
   var fig = document.getElementById('hero-photo');
   var data = document.getElementById('hero-photos');
   if (!fig || !data) return;
-  var shots = JSON.parse(data.textContent);
+  var shots = JSON.parse(data.textContent).filter(Boolean);
   if (shots.length < 2) return;
   var pick = shots[Math.floor(Math.random() * shots.length)];
   var img = fig.querySelector('img'), links = fig.querySelectorAll('a'), cap = fig.querySelector('figcaption a');
