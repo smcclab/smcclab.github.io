@@ -1,0 +1,11 @@
+{%- comment -%}
+Grid of performance photos from _data/performances.yml entries that have an image.
+Usage: {% include photo-grid.html limit=6 %}  (limit optional; newest first)
+{%- endcomment -%}
+{%- assign shots = site.data.performances | where_exp: "p", "p.image" -%}
+{%- if include.limit %}{% assign shots = shots | slice: 0, include.limit %}{% endif -%}
+<ul class="photo-grid">
+  {%- for p in shots %}
+  <li><a href="{{ p.url | relative_url }}"><img src="{{ p.image | relative_url }}" alt="{{ p.image_alt }}" loading="lazy"></a></li>
+  {%- endfor %}
+</ul>

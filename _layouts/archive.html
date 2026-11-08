@@ -1,0 +1,35 @@
+---
+layout: default
+---
+{%- if page.type == 'years' -%}
+  {%- assign groups = site.posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
+{%- else -%}
+  {%- assign groups = site.tags | sort -%}
+{%- endif -%}
+<article class="content">
+  <h1>{{ page.title }}</h1>
+  {{ content }}
+  <ul class="taxonomies">
+    {%- for g in groups -%}
+      {%- if page.type == 'years' -%}
+        {%- assign name = g.name -%}{%- assign slug = g.name -%}{%- assign count = g.size -%}
+      {%- else -%}
+        {%- assign name = g[0] | slugify -%}{%- assign slug = name -%}{%- assign count = g[1].size -%}
+      {%- endif -%}
+      <li><a href="#{{ slug }}">{{ name }} <small>{{ count }}</small></a></li>
+    {%- endfor -%}
+  </ul>
+  {%- for g in groups -%}
+    {%- if page.type == 'years' -%}
+      {%- assign name = g.name -%}{%- assign slug = g.name -%}{%- assign posts = g.items -%}
+    {%- else -%}
+      {%- assign name = g[0] | slugify -%}{%- assign slug = name -%}{%- assign posts = g[1] -%}
+    {%- endif -%}
+    <h2 id="{{ slug }}">{{ name }}</h2>
+    <ul class="archive-list">
+      {%- for post in posts -%}
+      <li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time> <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
+      {%- endfor -%}
+    </ul>
+  {%- endfor -%}
+</article>

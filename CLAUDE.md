@@ -17,9 +17,11 @@ Requires Ruby 3.4.10 (see `.ruby-version`; the Gemfile adds `csv`, `base64` and 
 
 ## Architecture
 
-- **Theme:** Custom `monophase` theme (loaded from git, `https://github.com/cpmpercussion/monophase.git`)
-- **Plugins:** `jekyll-feed`, `jekyll-paginate`, `jekyll-seo-tag` (via theme)
-- **Navigation:** Defined in `_data/navigation.yml`
+- **Theme:** none. Layouts, includes and styles live in this repo: [Pico CSS](https://picocss.com) v2 vendored at `assets/vendor/pico/`, with the site's own overrides in `assets/css/main.css` (one accent colour, the orange from the lab logo, set as `--pico-primary` for light and dark mode). Same approach as the ACMA website.
+- **Layouts:** `default` (head, nav, footer), `page` (set `hide_title: true` to drop the h1, `wide: true` for a 60rem column), `post`, `posts` (post list), `archive` (`type: years` or `type: tags`), `project`.
+- **Plugins:** `jekyll-feed`, `jekyll-seo-tag`, `jekyll-sitemap`
+- **Navigation:** Defined in `_data/navigation.yml` (keep it to one row; secondary pages such as Alumni, Archive and Tags are linked from the footer)
+- **Homepage:** `index.md` is mostly HTML. The hero photo is picked at random on each visit from entries in `_data/performances.yml` that have `image` and `image_alt`; the same entries feed the "On stage" grid and the performances page via `_includes/photo-grid.html`. Research areas are a `.cards` grid.
 
 ### Content structure
 
@@ -58,9 +60,13 @@ Computing-website vocabulary (must match exactly):
 
 - `youtubePlayer.html` — responsive YouTube embed: `{% include youtubePlayer.html id="VIDEO_ID" %}`
 - `mailing_list_form.html` — Mailchimp signup form
-- `custom-head.html` — custom stylesheet link
-- `footer.html` — lab logo footer
+- `photo-grid.html` — grid of performance photos from `_data/performances.yml`: `{% include photo-grid.html limit=6 %}`
 
 ### Assets
 
-Images go in `assets/` organized by year (e.g. `assets/2026/`). Reference with Liquid: `{% link assets/2026/image.jpg %}`.
+Images go in `assets/` organized by year (e.g. `assets/2026/`). Reference with Liquid: `{% link assets/2026/image.jpg %}`. To put a performance photo on the homepage, add `image` and `image_alt` to its entry in `_data/performances.yml`.
+
+### Styling notes
+
+- Markdown callout: `{:.info-box}` on a paragraph.
+- Don't add gradients, shadows or hover transforms; Pico's defaults plus the accent colour are the whole design.
