@@ -1,0 +1,229 @@
+/* SMCClab site styles: small overrides on top of Pico CSS (assets/vendor/pico).
+   One accent colour, the orange from the lab logo. */
+
+:root:not([data-theme=dark]),
+[data-theme=light] {
+  --smcc-orange: #f07010;           /* logo orange: bars, buttons, rules */
+  --pico-primary: #c4560a;          /* darker for readable link text on white */
+  --pico-primary-background: #e0640c;
+  --pico-primary-underline: rgba(196, 86, 10, 0.4);
+  --pico-primary-hover: #9a4308;
+  --pico-primary-hover-background: #c4560a;
+  --pico-primary-hover-underline: var(--pico-primary-hover);
+  --pico-primary-focus: rgba(240, 112, 16, 0.35);
+  --pico-text-selection-color: rgba(240, 112, 16, 0.2);
+  --smcc-tint: #fbf0e6;
+}
+
+@media only screen and (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --smcc-orange: #f07010;
+    --pico-primary: #f5a05a;
+    --pico-primary-background: #e0640c;
+    --pico-primary-underline: rgba(245, 160, 90, 0.4);
+    --pico-primary-hover: #f9c08f;
+    --pico-primary-hover-background: #f07010;
+    --pico-primary-hover-underline: var(--pico-primary-hover);
+    --pico-primary-focus: rgba(245, 160, 90, 0.4);
+    --pico-text-selection-color: rgba(245, 160, 90, 0.3);
+    --smcc-tint: rgba(240, 112, 16, 0.14);
+  }
+}
+
+/* Header and nav: links wrap on narrow screens instead of a menu toggle. */
+body > header { padding-block: 0.5rem; }
+body > header nav { flex-wrap: wrap; row-gap: 0.5rem; }
+body > header nav ul:last-child { flex-wrap: wrap; }
+.logo img { display: block; height: 4.5rem; width: auto; }
+body > header nav li { padding-block: 0.25rem; }
+body > header nav a { color: var(--pico-contrast); }
+body > header nav a:hover,
+body > header nav a[aria-current="page"] { color: var(--pico-primary); }
+
+/* Readable, centred text column (and no Pico card styling on <article>). */
+.content {
+  max-width: 46rem;
+  padding: 0;
+  background: none;
+  box-shadow: none;
+  margin-inline: auto;
+  overflow-wrap: anywhere;
+}
+.content-wide { max-width: 60rem; }
+.content img { border-radius: var(--pico-border-radius); }
+
+.meta {
+  color: var(--pico-muted-color);
+  font-size: 0.9em;
+  margin-top: calc(var(--pico-typography-spacing-vertical) * -0.5);
+}
+.lead { font-size: 1.15em; }
+
+/* ---- Homepage ---- */
+
+.hero { margin-block: 1rem 2rem; }
+.hero h1 {
+  font-size: clamp(1.7rem, 4vw, 2.5rem);
+  line-height: 1.15;
+  margin-bottom: 0.5rem;
+}
+.hero .lead { max-width: 36em; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 0; }
+.hero-actions a { margin: 0; }
+
+/* The rotating performance photo. The script in index.md swaps in a random one. */
+.hero-photo { margin: 0 0 2.5rem; }
+.hero-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+  border-radius: var(--pico-border-radius);
+}
+.hero-photo figcaption {
+  margin-top: 0.5rem;
+  color: var(--pico-muted-color);
+  font-size: 0.9em;
+}
+.hero-photo figcaption a { color: inherit; }
+
+/* Research area cards. */
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem 2rem;
+  margin-block: 1rem 2rem;
+}
+.cards > div { margin: 0; }
+.cards img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: var(--pico-border-radius);
+  margin-bottom: 0.75rem;
+}
+.cards h3 { font-size: 1.15rem; margin-bottom: 0.4rem; }
+.cards p { margin-bottom: 0; }
+
+/* Photo grid: homepage "on stage" and the performances page. */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  padding: 0;
+  margin-block: 1rem 2rem;
+}
+.photo-grid li { list-style: none; margin: 0; }
+.photo-grid img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--pico-border-radius);
+}
+
+.section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
+.section-head h2 { margin-bottom: 0; }
+
+/* Callout, used in Markdown as {:.info-box} */
+.info-box {
+  margin-block: var(--pico-typography-spacing-vertical);
+  padding: var(--pico-spacing);
+  border-top: 4px solid var(--smcc-orange);
+  background: var(--smcc-tint);
+}
+.info-box > :last-child { margin-bottom: 0; }
+
+/* ---- Posts and archives ---- */
+
+.post-list { padding: 0; }
+.post-list li { list-style: none; padding-block: 1rem; border-bottom: 1px solid var(--pico-muted-border-color); }
+.post-list h2 { margin-bottom: 0.25rem; font-size: 1.35rem; }
+.post-list h2 a { text-decoration: none; }
+.post-list p:last-child { margin-bottom: 0; }
+
+.taxonomies { display: flex; flex-wrap: wrap; gap: 0.5rem; padding: 0; }
+.taxonomies li { list-style: none; margin: 0; }
+.taxonomies a {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: 999px;
+  text-decoration: none;
+}
+.taxonomies small { color: var(--pico-muted-color); }
+.archive-list { padding: 0; }
+.archive-list li { list-style: none; }
+.archive-list time { color: var(--pico-muted-color); font-variant-numeric: tabular-nums; margin-right: 0.5rem; }
+
+/* ---- Publications and performances lists ---- */
+
+.year-heading {
+  margin: 1.4em 0 0.5em;
+  padding-bottom: 0.15em;
+  border-bottom: 2px solid var(--smcc-orange);
+  font-size: 1.2em;
+}
+.entry-list { list-style: none; padding: 0; margin: 0; }
+.entry {
+  display: grid;
+  grid-template-columns: 5.5em 1fr;
+  gap: 0.15em 1em;
+  padding: 0.7em 0;
+  border-bottom: 1px solid var(--pico-muted-border-color);
+  list-style: none;
+}
+.entry-venue,
+.entry-kind {
+  align-self: start;
+  font-size: 0.72em;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--pico-muted-color);
+  padding-top: 0.3em;
+  word-break: break-word;
+}
+.entry-venue.is-top { color: var(--pico-primary); }
+.entry-body { min-width: 0; }
+.entry-title { font-weight: 600; line-height: 1.3; }
+.entry-authors { display: block; font-size: 0.9em; margin-top: 0.15em; }
+.entry-links { display: block; margin-top: 0.2em; font-size: 0.82em; }
+.entry-links a { margin-right: 0.9em; }
+
+/* ---- Mailing list form (Mailchimp embed) ---- */
+#mc_embed_signup {
+  width: auto !important;
+  max-width: 100%;
+  box-shadow: none !important;
+  background: var(--smcc-tint) !important;
+  color: var(--pico-color);
+  font-family: inherit !important;
+  border-top: 4px solid var(--smcc-orange);
+  border-radius: 0 !important;
+}
+#mc_embed_signup h2 { color: var(--pico-h2-color); }
+#mc_embed_signup label { color: var(--pico-color); }
+
+/* ---- Footer ---- */
+body > footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  border-top: 1px solid var(--pico-muted-border-color);
+  color: var(--pico-muted-color);
+  font-size: 0.9em;
+}
+body > footer ul { display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; margin: 0; padding: 0; }
+body > footer li { list-style: none; margin: 0; }
+body > footer a { color: inherit; }
+
+@media (max-width: 576px) {
+  .logo img { height: 3.25rem; }
+  .cards { grid-template-columns: 1fr; }
+  .photo-grid { grid-template-columns: 1fr 1fr; }
+  .entry { grid-template-columns: 1fr; gap: 0.1em; }
+  .entry-venue, .entry-kind { padding-top: 0; }
+}

@@ -4,16 +4,9 @@
   url: /publications/
 - title: Performances
   url: /performances/
-- title: Posts
-  url: /posts/
-- title: Archive
-  url: /archive/
-- title: Tags
-  url: /tags/
-- title: Alumni
-  url: /alumni/
 - title: Projects
   url: /projects/
+- title: Posts
+  url: /posts/
 - title: Join
   url: /join/
-

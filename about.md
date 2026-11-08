@@ -23,6 +23,14 @@ Our work combines three cutting edge fields of research:
 - **Musical Machine Learning**: Creating and training predictive models of musical notes, sounds, and gestures. This includes applying techniques symbolic music generation, to understand scores and MIDI data,  and music information retrieval to "hear" music in audio data.
 - **Musical Human-Computer Interaction**: Finding new ways for predictive models to work with musicians, and to analyse the musical experience that emerges.
 
+## People
+
+{% for person in site.data.lab-members %}
+- [{{ person.name }}]({{ person.url }}) ({{ person.title }})
+{% endfor %}
+
+Students who have graduated from the lab, with links to their theses and papers, are listed on the [alumni page](/alumni/). If you'd like to join us, see the [join page](/join/).
+
 ## A SAFE Lab
 
 <a href="https://safelabs.info/the-labs/"><img src="{% link assets/2026/safe-labs-logo.svg %}" alt="SAFE Labs logo" style="float: right; width: 120px; max-width: 30%; margin: 0 0 1em 1em;"></a>

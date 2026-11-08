@@ -1,8 +1,10 @@
-# Curated list of SMCClab-era performances (2021--).
+# Curated list of SMCClab-era performances (2021--), plus a few earlier
+# touchscreen-ensemble concerts that led to the lab.
 # Maintained by hand: the lab's concerts and installations are not catalogued in
 # the BibTeX record, so add new entries here directly. Newest first.
 # Fields: year, title, authors (HTML; wrap lab members in <strong>), type,
-#         venue, location, url (event/write-up), video (optional).
+#         venue, location, url (event/write-up), video (optional),
+#         images (optional list of {src, alt}; shown on the homepage and performances page).
 
 - year: 2026
   title: "回溯 (Retrace): Co-constructing a Dual Feedback Apparatus"
@@ -11,6 +13,11 @@
   venue: "NIME 2026 musical program"
   location: "London, United Kingdom"
   url: "https://doi.org/10.5281/zenodo.20782069"
+  images:
+    - src: "assets/NIME2026-charles-yichen-performing-1.jpg"
+      alt: "Yichen Wang and Charles Martin performing 回溯 with intelligent instruments at NIME 2026, London"
+    - src: "assets/NIME2026-charles-yichen-performing-2.jpg"
+      alt: "Intelligent instrument performance of 回溯 at NIME 2026, London"
 
 - year: 2026
   title: "Performing with intelligent instruments at SoundOut"
@@ -19,6 +26,9 @@
   venue: "SoundOut Festival 2026"
   location: "Canberra, Australia"
   url: "https://charlesmartin.au/blog/2026/02/01/soundout-2026"
+  images:
+    - src: "assets/2026-charles-martin-soundout.jpg"
+      alt: "Charles Martin performing with intelligent instruments at SoundOut Festival 2026"
 
 - year: 2026
   title: "SMCClablive #2 — Andromeda is Coming (Hyphae album launch)"
@@ -35,6 +45,9 @@
   venue: "Haunted Treasures, Platform (Canberra Contemporary)"
   location: "Manuka, Canberra · 26 June – 19 July 2026"
   url: "https://snud.me/project/dont-dare-gamble"
+  images:
+    - src: "assets/2026-06-SandyMa-HautedTreasures-work.jpg"
+      alt: "Sandy Ma, Don't Dare Gamble, Love Is Indestructible, at Platform, Canberra Contemporary"
 
 - year: 2025
   title: "SMCClablive #1 — featuring Charlie Roberts"
@@ -43,6 +56,9 @@
   venue: "SMCClablive #1, Big Band Room, ANU School of Music"
   location: "Canberra, Australia · 7 November 2025"
   url: "/2025/11/24/smcclablive-wrapup.html"
+  images:
+    - src: "assets/2025-smcclablive-1-1.jpg"
+      alt: "Performers on stage at SMCClablive #1"
   video: "https://youtu.be/S_JuZUTmwbk"
 
 - year: 2025
@@ -67,6 +83,9 @@
   venue: "ANU Drill Hall Gallery (Light Source exhibition, RGB+ events)"
   location: "Canberra, Australia · 17 September 2025"
   url: "https://charlesmartin.au/blog/2025/09/17/dream-tent"
+  images:
+    - src: "assets/2025-dream-tent.jpg"
+      alt: "Dream Tent installation at the ANU Drill Hall Gallery"
 
 - year: 2024
   title: "Andromeda is Coming and Artificially Intelligent Friends"
@@ -75,6 +94,11 @@
   venue: "Big Band Room, ANU School of Music"
   location: "Canberra, Australia · 29 May 2024"
   url: "/2024/05/16/andromeda-concert.html"
+  images:
+    - src: "assets/2024-aicaif-concert.jpg"
+      alt: "Andromeda is Coming and Artificially Intelligent Friends concert at the ANU School of Music"
+    - src: "assets/artificial-friends-min.jpg"
+      alt: "Yichen Wang wearing a HoloLens AR headset, playing a keyboard controller and synthesiser on stage"
 
 - year: 2024
   title: "Unspoken"
@@ -106,6 +130,9 @@
   venue: "ACMC 2023 (Australasian Computer Music Conference)"
   location: "Parramatta, Sydney, Australia"
   url: "https://computermusic.org.au/conferences/acmc2023/"
+  images:
+    - src: "assets/2023-beyond-realms.jpg"
+      alt: "破境 // beyond realms by Yichen Wang and Sandy Ma at ACMC 2023"
   video: "https://youtu.be/5QUpw_7yZqU"
 
 - year: 2022
@@ -129,3 +156,14 @@
   type: "Live soundtrack"
   venue: "PhotoAccess"
   location: "Canberra, ACT · 18 February 2021"
+
+- year: 2014
+  title: "Ensemble Metatone: Colour Music"
+  authors: "<strong>Charles Martin</strong>, Christina Hopgood, Jonathan Griffiths, and Yvonne Lam — iPads and percussion"
+  type: "Concert"
+  venue: "ANU Drill Hall Gallery (recorded live for the Colour Music album)"
+  location: "Canberra, Australia · 24 August 2014"
+  url: "https://charlesmartin.bandcamp.com/album/colour-music"
+  images:
+    - src: "assets/metatone-hands-header.jpg"
+      alt: "Ensemble Metatone performing on touchscreens and percussion"

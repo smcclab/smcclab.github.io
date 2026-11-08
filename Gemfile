@@ -3,8 +3,9 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3.3"
 
 group :jekyll_plugins do
-  gem "monophase", :git => "https://github.com/cpmpercussion/monophase.git", :branch => "main" 
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do

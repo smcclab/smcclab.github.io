@@ -7,14 +7,24 @@ description: >- # this means to ignore newlines until "baseurl:"
   The lab PI is Dr Charles Martin.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://smcclab.au" # the base hostname & protocol for your site
+logo: /assets/lab-logo/smcclab-black.png
 
 tags_path: /tags/
 
+# Layouts, includes and styles live in this repo (_layouts, _includes,
+# assets/css/main.css on top of Pico CSS in assets/vendor/pico).
 plugins:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-theme: monophase
+exclude:
+  - scripts/
+  - CLAUDE.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
 collections:
   projects:
     output: true

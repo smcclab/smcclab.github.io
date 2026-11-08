@@ -2,12 +2,12 @@
 layout: default
 ---
 {%- assign theme = site.data.project_themes | where: "key", page.theme | first -%}
-<article class="page">
-  <p><a href="{{ '/projects/' | relative_url }}">&larr; All student projects</a>{% if theme %} &middot; {{ theme.title }}{% endif %}</p>
-  <h1 class="page-title">{{ page.title }}</h1>
-  <p><em>{{ page.tagline }}</em></p>
+<article class="content">
+  <p class="meta"><a href="{{ '/projects/' | relative_url }}">&larr; All student projects</a>{% if theme %} &middot; {{ theme.title }}{% endif %}</p>
+  <h1>{{ page.title }}</h1>
+  <p class="lead"><em>{{ page.tagline }}</em></p>
   {%- if page.image %}
-  <p><img src="{{ page.image | relative_url }}" alt="{{ page.image_alt }}" style="width:100%;height:auto;border-radius:4px;"></p>
+  <p><img src="{{ page.image | relative_url }}" alt="{{ page.image_alt }}"></p>
   {%- endif %}
   <p>
     <strong>Level:</strong> {{ page.levels | join: ", " | replace: "Short", "Short project" }}<br>
