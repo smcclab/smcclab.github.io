@@ -37,14 +37,78 @@ def collection_titles(dest, folder):
     return titles
 
 
-def theme_intro(key):
-    """Intro paragraph(s) for a theme in _data/project_themes.yml, so the exported page stands alone."""
+def theme_block(key, field):
+    """A block scalar field (e.g. intro) of a theme in _data/project_themes.yml, or ''."""
     text = (SITE / "_data" / "project_themes.yml").read_text()
     for block in text.split("- key: ")[1:]:
-        if block.split("\n", 1)[0].strip() == key and "intro: |" in block:
-            intro = block.split("intro: |", 1)[1]
-            return "\n".join(line[4:] for line in intro.splitlines()).strip()
+        if block.split("\n", 1)[0].strip() != key:
+            continue
+        lines = block.splitlines()
+        for i, line in enumerate(lines):
+            if line.strip() == f"{field}: |":
+                body = []
+                for cont in lines[i + 1:]:
+                    if cont.strip() and not cont.startswith("    "):
+                        break  # next field or next theme
+                    body.append(cont[4:])
+                return "\n".join(body).strip()
     return ""
+
+
+def theme_intro(key):
+    """Intro paragraph(s) for a theme, so the exported page stands alone. The optional export_intro
+    key is written for readers of the computing website, who only see one project from the theme."""
+    return theme_block(key, "export_intro") or theme_block(key, "intro")
+
+
+# Lab systems and jargon that readers of the computing website won't know. The first unlinked mention
+# of each term in a project body is linked to its canonical site (and glossed, if a gloss is given).
+# Longer terms come first so that "Bela Gem Multi" is matched before "Bela Gem" or "Bela".
+TERMS = [
+    ("impsy-web", "https://github.com/cpmpercussion/impsy-web", None),
+    ("IMPSY", "https://charlesmartin.au/impsy/", None),
+    ("Bela Gem Multi", "https://bela.io/products/bela-gem-stereo-and-multi/", None),
+    ("Bela Gem", "https://bela.io", None),
+    ("Bela", "https://bela.io", None),
+    ("MDRNN", None, "mixture density recurrent neural network"),
+    ("COMP3740", "https://programsandcourses.anu.edu.au/course/COMP3740", None),
+    ("COMP4350/COMP8350", "https://comp.anu.edu.au/courses/comp4350/", "Sound and Music Computing"),
+]
+
+# Standard context for every exported project: who we are and what an intelligent instrument is.
+LAB_CONTEXT = f"""This is a research project in the [Sound, Music and Creative Computing Lab (SMCClab)]({SITE_URL}) at the ANU School of Computing, supervised by Charles Martin. The lab studies *intelligent musical instruments*: instruments with a built-in AI model that generates musical actions of its own, responding to the musician or playing alongside them. Most of our projects use [IMPSY](https://charlesmartin.au/impsy/), the lab's open-source system that records a musician's gestures from a MIDI controller, trains a small neural network on that data, and then plays back and responds in live performance on a Raspberry Pi, laptop, iPad, or in a web browser. You don't need to know these systems before you start: the background reading at the end of this page is the place to begin."""
+
+LINK_RE = re.compile(r"!?\[[^\]]*\]\([^)]*\)")
+
+
+def link_terms(body):
+    """Link and gloss the first plain-text mention of each term in TERMS, outside existing links and
+    outside the background reading list (where the terms appear in paper titles)."""
+    head, sep, tail = body.partition("## Background reading")
+    # Alternate plain-text and link parts so that text inside existing links is never touched.
+    parts = []
+    pos = 0
+    for m in LINK_RE.finditer(head):
+        parts.append((False, head[pos:m.start()]))
+        parts.append((True, m.group(0)))
+        pos = m.end()
+    parts.append((False, head[pos:]))
+    for term, url, gloss in TERMS:
+        if url and any(is_link and f"]({url})" in text for is_link, text in parts):
+            continue  # already linked by the author
+        pattern = re.compile(r"(?<![\w/-])" + re.escape(term) + r"(?![\w/-])")
+        for i, (is_link, text) in enumerate(parts):
+            if is_link:
+                continue
+            m = pattern.search(text)
+            if not m:
+                continue
+            linked = f"[{term}]({url})" if url else term
+            if gloss:
+                linked += f" ({gloss})"
+            parts[i:i + 1] = [(False, text[:m.start()]), (True, linked), (False, text[m.end():])]
+            break
+    return "".join(text for _, text in parts) + sep + tail
 
 
 def split_front_matter(text):
@@ -106,17 +170,19 @@ def export(name, dest):
 
     details = ["**Length:** Honours and Master projects run over two semesters."]
     if short:
-        details.append("**Short project:** Also available as a six-week summer research scholarship or a one-semester COMP3740 project (see the short-project scope below).")
+        details.append("**Short project:** Also available as a six-week summer research scholarship or a one-semester [COMP3740](https://programsandcourses.anu.edu.au/course/COMP3740) project (see the short-project scope below).")
     if yaml_scalar(blocks, "level_note"):
         details.append(f"**Note:** {yaml_scalar(blocks, 'level_note')}")
     if yaml_scalar(blocks, "prerequisites"):
         details.append(f"**Prerequisites:** {yaml_scalar(blocks, 'prerequisites')}")
 
-    details_md = "  \n".join(details)
+    details_md = link_terms("  \n".join(details))
+    body = link_terms(body)
     intro = theme_intro(yaml_scalar(blocks, "theme") or "")
     if intro:
         intro = re.sub(r"\]\(/", f"]({SITE_URL}/", intro)
-        body = f"{intro}\n\n## This project\n\n{body}"
+        intro = link_terms(intro)
+    body = f"## About this project\n\n{LAB_CONTEXT}\n\n{intro}\n\n## This project\n\n{body}".replace("\n\n\n\n", "\n\n")
     if yaml_scalar(blocks, "image"):  # images are served from smcclab.au, not copied into the computing site
         alt = yaml_scalar(blocks, "image_alt") or yaml_scalar(blocks, "title")
         body = f"![{alt}]({SITE_URL}{yaml_scalar(blocks, 'image')})\n\n{body}"
@@ -130,7 +196,9 @@ def export(name, dest):
 
 {body}
 
-This project is one of several available in the [Sound, Music, and Creative Computing Lab]({SITE_URL}). See the [full list of SMCClab student projects]({SITE_URL}/projects/) and the [project page on the SMCClab website]({page_url}).
+## More projects in the lab
+
+This is one of more than a dozen projects currently available in the SMCClab, covering machine learning, embedded hardware, HCI, visualisation, theory, and artistic research. Only a selection is listed on the School of Computing website, so see the [full list of SMCClab student projects]({SITE_URL}/projects/) on the lab website. You can also read [this project on the lab website]({page_url}).
 
 ## How to Apply
 

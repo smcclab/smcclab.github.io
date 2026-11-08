@@ -3,7 +3,7 @@ title: "Composing network connections for a touchscreen ensemble"
 tagline: "Design new ways to compose with live network links between the instruments in an improvising ensemble."
 authors:
   - charles-martin
-date: 2026-09-28
+date: 2026-11-08
 clusters:
   - Computing Foundations
 groups:

@@ -46,7 +46,7 @@ To advertise a project on comp.anu.edu.au, export it into a local clone of `gitl
 python3 scripts/export_to_computing.py ../computing-website <name> [<name>...]
 ```
 
-This writes `_projects/smcclab-<name>.md` there, prepending the theme intro, adding the computing site's "How to Apply" section and linking back to smcclab.au. It warns if a cluster or group name is not a title in that repo's `_research/clusters` or `_research/groups`.
+This writes `_projects/smcclab-<name>.md` there. Readers of the computing site see the project next to unrelated computing projects and don't know the lab's systems, so the exporter makes each page stand alone: it prepends an "About this project" section (a fixed paragraph about the lab and IMPSY, then the theme's `export_intro` if set, else its `intro`), links and glosses the first plain-text mention of lab terms (IMPSY, impsy-web, Bela Gem, MDRNN, course codes; see `TERMS` in the script) outside existing links and the background reading, adds the computing site's "How to Apply" section, and ends with a "More projects in the lab" section linking to smcclab.au/projects/. Write `export_intro` for a theme whenever its `intro` refers to sibling projects or assumes lab context. It warns if a cluster or group name is not a title in that repo's `_research/clusters` or `_research/groups`.
 
 Computing-website vocabulary (must match exactly):
 

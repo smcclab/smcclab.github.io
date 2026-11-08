@@ -3,7 +3,7 @@ title: "Updating small-data music models across practice sessions"
 tagline: "How should a musician's personal AI model be updated as they collect more data over weeks of practice?"
 authors:
   - charles-martin
-date: 2026-09-28
+date: 2026-11-08
 clusters:
   - Computing Foundations
 groups:
@@ -30,7 +30,7 @@ IMPSY models are trained on tiny datasets: a few hours of one person's playing. 
 In this project you'll treat existing performance logs as a sequence of practice sessions, then compare strategies for updating an MDRNN after each one. A key part of the project is defining how to tell when a model has *actually* changed its musical behaviour, not just its validation loss (for example, by comparing the timing and values of gestures sampled from each model).
 
 - **Short project:** a reproducible experiment pipeline using IMPSY's dataset tools; retraining vs. fine-tuning on one instrument's data; validation loss plus one behavioural measure.
-- **Full project:** add regularisation strategies and a second dataset (e.g., logs from the multi-week study project or other lab instruments), and recommend a procedure for updating models between sessions.
+- **Full project:** add regularisation strategies and a second dataset (e.g., logs from the related [multi-week study project](/projects/living-with-intelligent-instruments-study/) or other lab instruments), and recommend a procedure for updating models between sessions.
 
 ## Background reading
 

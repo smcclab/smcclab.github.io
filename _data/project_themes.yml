@@ -4,6 +4,8 @@
     [IMPSY](https://github.com/cpmpercussion/impsy) is our platform for intelligent musical instruments. It records a musician's gestures from a MIDI controller, trains a small mixture density recurrent neural network (MDRNN) on that data, and then plays back and responds in live performance. It runs on laptops, Raspberry Pis, iPads (as an AUv3 plugin), and in the web browser.
 
     So far, we have mostly studied these instruments in short lab sessions or through our own performance practice. We don't know much about what happens when musicians *live with* an intelligent instrument over weeks: collecting more data, retraining, and deciding whether the model is getting better or just different. The three projects in this theme each take one part of that question and are planned to run from December to June.
+  export_intro: |
+    So far, we have mostly studied our intelligent instruments in short lab sessions or through our own performance practice. We don't know much about what happens when musicians *live with* an intelligent instrument over weeks: collecting more data, retraining, and deciding whether the model is getting better or just different. This project takes on one part of that question. Two related projects on the lab website take on the others, and the three are designed to run alongside each other from December to June.
 - key: artistic
   title: "Artistic research projects"
   intro: |
@@ -23,3 +25,5 @@
 - key: hardware
   title: "Hardware projects"
   intro: |
+  export_intro: |
+    These projects build the physical and networked systems that the lab's music research runs on. The lab provides the hardware (Raspberry Pis, iPads, MIDI controllers, and synthesisers), and the result is something musicians can use outside the lab.

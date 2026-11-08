@@ -3,7 +3,7 @@ title: "An intelligent instrument in one box: IMPSY on Bela Gem"
 tagline: "Combine sensing, an AI model, and sound synthesis in one low-latency Bela Gem instrument."
 authors:
   - charles-martin
-date: 2026-09-28
+date: 2026-11-08
 clusters:
   - Computing Foundations
 groups:
