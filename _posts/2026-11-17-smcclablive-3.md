@@ -8,6 +8,7 @@ tags: [concert, smcclablive, computer-music, live-performance, hyphae, acmc]
 
 - time: 1:00pm, Thursday 19 November 2026
 - location: [Band Room](https://studentvip.com.au/anu/main/maps/140822), Peter Karmel Building, ANU School of Music
+- details: [ANU School of Music event page](https://music.cass.anu.edu.au/events/sound-music-and-creative-computing-lunchtime-concert)
 
 ![SMCClablive #3 poster — Hunter/Martin/Niyonsenga, new music for computer and radio, 1pm Thursday 19 November 2026, Band Room, Peter Karmel Building]({% link assets/2026/2026-11-19-smcclablive-3-poster-2000w.jpg %})
 
