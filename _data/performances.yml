@@ -7,6 +7,14 @@
 #         images (optional list of {src, alt}; shown on the homepage and performances page).
 
 - year: 2026
+  title: "SMCClablive #3 — new music for computer and radio"
+  authors: "<strong>Charles Martin</strong>, <strong>Alexander Hunter</strong>, and <strong>Albert-Ngabo Niyonsenga</strong>"
+  type: "Concert series"
+  venue: "SMCClablive #3, Band Room, ANU School of Music"
+  location: "Canberra, Australia · 19 November 2026"
+  url: "/2026/11/17/smcclablive-3.html"
+
+- year: 2026
   title: "回溯 (Retrace): Co-constructing a Dual Feedback Apparatus"
   authors: "<strong>Yichen Wang</strong> and <strong>Charles Martin</strong>"
   type: "Concert"
